@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="brandedeclipseexample"
+         point="org.eclipse.core.runtime.products">
+      <product application="org.eclipse.ui.ide.workbench" name="%productName">
+         <property name="appName" value="%productName" />
+         <property name="aboutImage" value="about.gif"/> 
+         <property name="aboutText" value="%aboutText"/> 
+
+         <property name="windowImages" value="icon16.gif,icon32.gif,icon48.gif,icon16.png,icon32.png,icon48.png,icon256.png"/>
+
+         <property name="cssTheme" value="org.eclipse.e4.ui.css.theme.e4_default" />
+
+         <property name="startupForegroundColor" value="000000"/>
+         <property name="startupMessageRect" value="20,250,410,20"/>
+         <property name="startupProgressRect" value="20,270,410,10"/>
+
+         <property name="preferenceCustomization" value="plugin_customization.ini"/>
+      </product>
+   </extension>
+
+</plugin>

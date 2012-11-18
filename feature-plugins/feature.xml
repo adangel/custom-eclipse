@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="feature-plugins"
+      label="Feature Plugins"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="branding"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin id="com.essiembre.eclipse.i18n.resourcebundle" version="0.0.0"/>
+
+   <plugin id="org.adarsh.jutils" version="0.0.0"/>
+
+
+   <includes id="net.sf.eclipsecs" version="0.0.0"/>
+
+   <includes id="org.springframework.ide.eclipse.feature" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.autowire.feature" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.aop.feature" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.batch.feature" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.integration.feature" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.maven.feature" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.data.feature" version="0.0.0"/>
+   <includes id="org.codehaus.groovy20.feature" version="0.0.0"/>
+   <includes id="org.codehaus.groovy.eclipse.feature" version="0.0.0"/>
+   <includes id="org.codehaus.groovy.jdt.patch" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.ajdt.feature" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.mylyn.feature" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.ajdt.feature.source" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.aop.feature.source" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.autowire.feature.source" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.batch.feature.source" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.feature.source" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.integration.feature.source" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.maven.feature.source" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.security.feature.source" version="0.0.0"/>
+   <includes id="org.springframework.ide.eclipse.data.feature.source" version="0.0.0"/>
+
+   <includes id="org.eclipse.m2e.feature" version="0.0.0"/>
+
+   <includes id="edu.umd.cs.findbugs.plugin.eclipse" version="0.0.0"/>
+
+   <includes id="com.mountainminds.eclemma.feature" version="0.0.0"/>
+
+   <includes id="net.sourceforge.pmd.eclipse" version="0.0.0"/>
+
+   <includes id="org.eclipse.egit" version="0.0.0"/>
+   <includes id="org.eclipse.egit.mylyn" version="0.0.0"/>
+   <includes id="org.eclipse.jgit" version="0.0.0"/>
+   <includes id="org.eclipse.jgit.pgm" version="0.0.0"/>
+
+   <includes id="org.tigris.subversion.subclipse" version="0.0.0"/>
+   <includes id="com.collabnet.subversion.merge.feature" version="0.0.0"/>
+   <includes id="org.tigris.subversion.subclipse.mylyn" version="0.0.0"/>
+   <includes id="org.tigris.subversion.clientadapter.feature" version="0.0.0"/>
+   <includes id="org.tigris.subversion.clientadapter.javahl.feature" version="0.0.0"/>
+   <includes id="org.tigris.subversion.subclipse.graph.feature" version="0.0.0"/>
+   <includes id="net.java.dev.jna" version="0.0.0"/>
+   <includes id="org.tigris.subversion.clientadapter.svnkit.feature" version="0.0.0"/>
+   <includes id="org.tmatesoft.svnkit" version="0.0.0"/>
+
+   <includes id="com.soyatec.euml2.studio" version="0.0.0"/>
+
+   <includes id="com.tetrade.eclipse.plugins.easyshell.feature" version="0.0.0"/>
+
+   <includes id="org.eclipse.jenkins" version="0.0.0"/>
+
+   <includes id="com.aptana.feature.studio" version="0.0.0"/>
+
+   <includes id="org.jboss.ide.eclipse.freemarker.feature" version="0.0.0"/>
+   <includes id="org.hibernate.eclipse.feature" version="0.0.0"/>
+   <includes id="org.jboss.tools.common.jdt.feature" version="0.0.0"/>
+   <includes id="org.jboss.tools.jmx.feature" version="0.0.0"/>
+
+   <includes id="net.sf.jautodoc.feature" version="0.0.0"/>
+
+   <includes id="biz.junginger.ExploreFS_Feature" version="0.0.0"/>
+
+   <includes id="com.cenqua.clover" version="0.0.0"/>
+
+   <includes id="json.editor.plugin.feature" version="0.0.0"/>
+
+   <includes id="net.sf.jdtdecompiler.feature" version="0.0.0"/>
+
+   <includes id="com.jutils.lint4j.core" version="0.0.0"/>
+
+   <includes id="JDepend4Eclipse" version="0.0.0"/>
+
+
+<!--
+   <includes id="org.python.pydev.feature" version="0.0.0"/>
+   <includes id="com.googlecode.grinderstone.feature" version="0.0.0"/>
+-->
+
+</feature>

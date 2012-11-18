@@ -1,0 +1,7 @@
+target/
+bin/
+mirror*/
+downloads*/
+.project
+.classpath
+.settings/
