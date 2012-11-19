@@ -7,14 +7,12 @@
    </configIni>
 
    <launcherArgs>
-      <programArgs>
--showsplash
-branding
--vmargs
--XX:MaxPermSize=256m
+      <programArgs>-showsplash
+branding</programArgs>
+      <vmArgs>-XX:MaxPermSize=256m
 -Xms40m
 -Xmx1024m
-</programArgs>
+-Dfile.encoding=UTF-8</vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
