@@ -22,7 +22,7 @@ function mirror_site()
 {
 java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
     -application org.eclipse.update.core.standaloneUpdate \
-    -command mirror -from $1 -to $site_mirror
+    -command mirror -from $1 -to $site_mirror -ignoreMissingPlugins true
 }
 
 #
@@ -152,18 +152,23 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 
 #mirror_site "http://findbugs.cs.umd.edu/eclipse/"
 #mirror_site "http://www.soyatec.com/update/juno/"
+#mirror_site "http://www.soyatec.com/update/indigo/"
+#mirror_site "http://www.soyatec.com/update/"
 #mirror_site "http://www.jutils.com/eclipse-update/"
 #mirror_site "http://andrei.gmxhome.de/eclipse/"
 #mirror_site "http://download.aptana.com/studio3/plugin/install"
-#atlassian doesn't work! This is missing: org.apache.commons.httpclient_3.1.0.v201012070820.jar
-###mirror_site "http://update.atlassian.com/atlassian-eclipse-plugin/e3.6/"
+#mirror_site "http://update.atlassian.com/atlassian-eclipse-plugin/e3.8/"
 #mirror_site "http://jautodoc.sourceforge.net/update/"
 #mirror_site "http://www.junginger.biz/eclipse/"
 #mirror_site "http://update.atlassian.com/eclipse/clover/"
 #mirror_site "http://jadclipse.sourceforge.net/update/"
 #mirror_site "http://pydev.org/updates/"
+#mirror_site "http://pluginbox.sourceforge.net/"
 #convert_site
 
+#
+# http://wiki.eclipse.org/Simultaneous_Release
+#
 #mirror_p2 "http://download.eclipse.org/releases/juno"
 #mirror_p2 "http://download.eclipse.org/mylyn/releases/juno"
 #mirror_p2 "http://download.eclipse.org/eclipse/updates/4.2"
@@ -175,8 +180,29 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #mirror_p2 "http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/"
 #mirror_p2 "http://download.eclipse.org/egit/updates"
 #mirror_p2 "http://subclipse.tigris.org/update_1.8.x/"
-#mirror_p2 "http://pluginbox.sourceforge.net/"
-#mirror_p2 "http://download.jboss.org/jbosstools/updates/development/juno/"
+#mirror_p2 "http://download.jboss.org/jbosstools/updates/stable/juno/"
+
+#
+# http://m2e-code-quality.github.com/m2e-code-quality/
+#
+#mirror_p2 "http://m2e-code-quality.github.com/m2e-code-quality/site/1.0.0"
+#
+
+#
+# org.sonatype.m2e. m2e connectors
+# see also: http://repo1.maven.org/maven2/.m2e/discovery-catalog/connectors.xml
+#
+#mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201212120353/"
+#mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.15.0/N/0.15.0.201212080009/"
+#mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-modello/0.16.0/N/0.16.0.201302171621/"
+#mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-modello/0.15.0/N/0.15.0.201207090125/"
+#mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-plexus/0.15.0/N/0.15.0.201302101151/"
+#mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.7.0/N/0.7.0.201302171659/"
+#mirror_p2 "http://dist.springsource.org/release/AJDT/composite/"
+#mirror_p2 "http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/"
+#mirror_p2 "http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/1.0.1-2012-09-20_05-03-18-H2/"
+
+
 
 #download_convert "rbe" "http://sourceforge.net/projects/eclipse-rbe/files/Eclipse%203.x/0.8.0/ResourceBundleEditor_v0.8.0.zip"
 #download_convert_plugins "jutils" "http://sourceforge.net/projects/eclipse-jutils/files/eclipse-jutils/eclipse-jutils%20plugin%20v3.1/org.adarsh.jutils_3.1.0.zip"
