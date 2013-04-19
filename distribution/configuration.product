@@ -18,6 +18,8 @@ branding</programArgs>
 
    <windowImages/>
 
+   <splash
+      location="branding" />
    <launcher>
    </launcher>
 
