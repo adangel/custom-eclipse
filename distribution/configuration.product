@@ -7,13 +7,20 @@
    </configIni>
 
    <launcherArgs>
-      <programArgs>-showsplash
+      <programArgs>-product branding.brandedeclipseexample
+--launcher.defaultAction openFile
+-showsplash
 branding</programArgs>
-      <vmArgs>-XX:MaxPermSize=256m
+      <programArgsWin>--launcher.XXMaxPermSize
+384M</programArgsWin>
+      <vmArgs>-Dosgi.requiredJavaVersion=1.5
+-Dhelp.lucene.tokenizer=standard
 -Xms40m
 -Xmx1024m
 -Dfile.encoding=UTF-8</vmArgs>
-      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+      <vmArgsLin>-XX:MaxPermSize=384m</vmArgsLin>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+-XX:MaxPermSize=384m</vmArgsMac>
    </launcherArgs>
 
    <windowImages/>
@@ -24,6 +31,10 @@ branding</programArgs>
    </launcher>
 
    <vm>
+      <linux include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6</linux>
+      <macos include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6</macos>
+      <solaris include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6</solaris>
+      <windows include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6</windows>
    </vm>
 
    <license>
