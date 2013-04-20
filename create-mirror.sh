@@ -197,11 +197,12 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-modello/0.16.0/N/0.16.0.201302171621/"
 #mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-modello/0.15.0/N/0.15.0.201207090125/"
 #mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-plexus/0.15.0/N/0.15.0.201302101151/"
+#mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.6.0/N/0.6.0.201210231015/"
 #mirror_p2 "http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.7.0/N/0.7.0.201302171659/"
 #mirror_p2 "http://dist.springsource.org/release/AJDT/composite/"
 #mirror_p2 "http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/"
 #mirror_p2 "http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/1.0.1-2012-09-20_05-03-18-H2/"
-
+#mirror_p2 "http://download.eclipse.org/m2e-wtp/releases/"
 
 
 #download_convert "rbe" "http://sourceforge.net/projects/eclipse-rbe/files/Eclipse%203.x/0.8.0/ResourceBundleEditor_v0.8.0.zip"
