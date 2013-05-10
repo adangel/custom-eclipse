@@ -40,6 +40,18 @@
                     </goals>
                 </execution>
             </executions>
+            <configuration>
+                <products>
+                    <product>
+                        <id>branded-eclipse-example</id>
+                        <archiveFileName>${product-name}-${buildQualifier}</archiveFileName>
+                        <rootFolder>${product-name}-${buildQualifier}</rootFolder>
+                    </product>
+                </products>
+                <formats>
+                    <linux>tar.gz</linux>
+                </formats>
+            </configuration>
         </plugin>
     </plugins>
   </build>
