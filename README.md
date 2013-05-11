@@ -21,6 +21,40 @@ own eclipse distribution. See the plugin "target-platform-configuration" and the
 8. In the same top-level pom.xml file, update the repository path to your own mirror.
 9. Execute "mvn clean package". The result is stored under "distribution/target/products/".
 
+## Plugins
+
+List of the contained plugins with update sites in no specific order.
+
+* [ResourceBundle Editor](http://eclipse-rbe.sourceforge.net/) - <http://sourceforge.net/projects/eclipse-rbe/files/Eclipse%203.x/0.8.0/ResourceBundleEditor_v0.8.0.zip> (no update site)
+* [JUtils ToString Generator](http://eclipse-jutils.sourceforge.net/) <http://sourceforge.net/projects/eclipse-jutils/files/eclipse-jutils/eclipse-jutils%20plugin%20v3.1/org.adarsh.jutils_3.1.0.zip> (no update site)
+* [Checkstyle](http://eclipse-cs.sourceforge.net/) - <http://eclipse-cs.sourceforge.net/update/>
+* [Spring Tool Suite](http://www.springsource.org/sts) - <http://dist.springsource.com/release/TOOLS/update/e4.2>
+* [Maven Integration (m2e)](http://eclipse.org/m2e/) - <http://download.eclipse.org/technology/m2e/releases>
+* [Findbugs](http://findbugs.sourceforge.net/) - <http://findbugs.cs.umd.edu/eclipse/>
+* [EclEmma](http://www.eclemma.org/) - <http://update.eclemma.org/>
+* [PMD](http://pmd.sourceforge.net) - <http://pmd.sourceforge.net/eclipse/>
+* [EGit](http://www.eclipse.org/egit/) - <http://download.eclipse.org/egit/updates>
+* [Subclipse](http://subclipse.tigris.org/) - <http://subclipse.tigris.org/update_1.8.x/>
+* [Jenkins](https://code.google.com/p/jenkins-eclipse-plugin/) - <http://jenkins-eclipse-plugin.googlecode.com/svn/trunk/jenkins-update/>
+* [Aptana Studio 3](http://www.aptana.com/products/studio3) - <http://download.aptana.com/studio3/plugin/install>
+* [JAutodoc](http://jautodoc.sourceforge.net/) - <http://jautodoc.sourceforge.net/update/>
+* [ExploreFS](http://www.junginger.biz/eclipse/index.html) - <http://www.junginger.biz/eclipse/>
+* [Atlassian Clover](http://www.atlassian.com/software/clover/) - <http://update.atlassian.com/eclipse/clover/>
+* [Json Editor](https://sourceforge.net/projects/eclipsejsonedit/) - <http://sourceforge.net/projects/eclipsejsonedit/files/eclipsejsonedit/Json%20Editor%20Plugin%200.9.4/JsonEditorPlugin-0.9.4.zip> (no update site)
+* [JadClipse](http://jadclipse.sourceforge.net) - <http://jadclipse.sourceforge.net/update/>
+* [Lint4j](http://www.jutils.com/) - <http://www.jutils.com/eclipse-update/>
+* [JDepend4Eclipse](http://andrei.gmxhome.de/jdepend4eclipse/) - <http://andrei.gmxhome.de/eclipse/>
+* [JBoss Tools](http://www.jboss.org/tools) - <http://download.jboss.org/jbosstools/updates/stable/juno/>
+* [m2e-code-quality](http://m2e-code-quality.github.io/m2e-code-quality/) - <http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0>
+* [m2e-wtp](http://www.eclipse.org/m2e-wtp/) - <http://download.eclipse.org/m2e-wtp/releases/>
+* [Atlassian IDE Connectors](http://www.atlassian.com/software/ide-connectors/) - <http://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.6/>
+* [EasyShell](http://pluginbox.sourceforge.net/plugins.html) - <http://pluginbox.sourceforge.net/>
+* [m2e-jaxb](http://bitstrings.github.io/) - <http://bitstrings.github.io/m2e-connectors-p2/releases/>
+* [m2e-antrun](http://code.google.com/p/nl-mwensveen-m2e-extras/) - <http://nl-mwensveen-m2e-extras.googlecode.com/svn/trunk/p2>
+* [TestNG](http://testng.org/doc/eclipse.html) - <http://beust.com/eclipse>
+* [Doxia IDE](http://maven.apache.org/doxia/doxia-ide/eclipse/) - <http://maven.apache.org/doxia/doxia-ide/eclipse/eclipse/>
+* [Markdown Editor](http://www.winterwell.com/software/markdown-editor.php) - <http://www.winterwell.com/software/updatesite/>
+
 
 ## References
 
