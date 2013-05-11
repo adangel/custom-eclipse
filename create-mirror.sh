@@ -177,7 +177,7 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.2"
 #mirror_p2 "http://download.eclipse.org/technology/m2e/releases"
 #mirror_p2 "http://update.eclemma.org/"
-#mirror_p2 "http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/"
+#mirror_p2 "http://pmd.sourceforge.net/eclipse/"
 #mirror_p2 "http://download.eclipse.org/egit/updates"
 #mirror_p2 "http://subclipse.tigris.org/update_1.8.x/"
 #mirror_p2 "http://download.jboss.org/jbosstools/updates/stable/juno/"
@@ -204,6 +204,36 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #mirror_p2 "http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/1.0.1-2012-09-20_05-03-18-H2/"
 #mirror_p2 "http://download.eclipse.org/m2e-wtp/releases/"
 
+#
+# m2e connector for jaxb
+# see http://bitstrings.github.io/
+#
+#mirror_p2 "http://bitstrings.github.io/m2e-connectors-p2/releases/"
+
+#
+# m2e connector for maven-antrun-plugin
+# see http://code.google.com/p/nl-mwensveen-m2e-extras/
+#
+#mirror_p2 "http://nl-mwensveen-m2e-extras.googlecode.com/svn/trunk/p2"
+
+#
+# testng plugin
+# see http://testng.org/doc/eclipse.html
+#
+#mirror_p2 "http://beust.com/eclipse"
+
+#
+# Doxia editor for eclipse
+# see http://maven.apache.org/doxia/doxia-ide/eclipse/
+#
+#mirror_p2 "http://maven.apache.org/doxia/doxia-ide/eclipse/eclipse/"
+
+#
+# Markdown Editor
+# http://www.winterwell.com/software/markdown-editor.php
+# https://github.com/winterstein/Eclipse-Markdown-Editor-Plugin
+#
+#mirror_p2 "http://www.winterwell.com/software/updatesite/"
 
 #download_convert "rbe" "http://sourceforge.net/projects/eclipse-rbe/files/Eclipse%203.x/0.8.0/ResourceBundleEditor_v0.8.0.zip"
 #download_convert_plugins "jutils" "http://sourceforge.net/projects/eclipse-jutils/files/eclipse-jutils/eclipse-jutils%20plugin%20v3.1/org.adarsh.jutils_3.1.0.zip"

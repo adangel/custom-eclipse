@@ -177,6 +177,13 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.eclipse.m2e.wtp.feature"/>
         <import feature="org.sonatype.tycho.m2e.feature"/>
 
+        <import feature="org.bitstrings.eclipse.m2e.connectors.jaxb2.features"/>
+        <import feature="org.bitstrings.eclipse.m2e.connectors.xmlbeans.features"/>
+        <import feature="nl.mwensveen.m2e.extras.antrun.feature"/>
+        <import feature="org.testng.eclipse"/>
+        <import feature="org.apache.maven.doxia.ide.eclipse.feature"/>
+        <import feature="markdown.editor.feature"/>
+
 <!--
         <import feature="com.soyatec.euml2.studio"/>
 -->
