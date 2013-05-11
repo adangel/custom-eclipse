@@ -157,7 +157,6 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #mirror_site "http://www.jutils.com/eclipse-update/"
 #mirror_site "http://andrei.gmxhome.de/eclipse/"
 #mirror_site "http://download.aptana.com/studio3/plugin/install"
-#mirror_site "http://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.6/"
 #mirror_site "http://jautodoc.sourceforge.net/update/"
 #mirror_site "http://www.junginger.biz/eclipse/"
 #mirror_site "http://update.atlassian.com/eclipse/clover/"
@@ -181,6 +180,7 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #mirror_p2 "http://download.eclipse.org/egit/updates"
 #mirror_p2 "http://subclipse.tigris.org/update_1.8.x/"
 #mirror_p2 "http://download.jboss.org/jbosstools/updates/stable/juno/"
+#mirror_p2 "http://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.6/"
 
 #
 # http://m2e-code-quality.github.com/m2e-code-quality/
