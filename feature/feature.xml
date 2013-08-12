@@ -100,7 +100,11 @@ This Agreement is governed by the laws of the State of New York and the intellec
    </license>
 
     <requires>
-        <!-- From org.eclipse.epp.package.jee.feature -->
+        <!-- From
+           http://www.eclipse.org/epp/
+           http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.jee.feature/feature.xml?h=KEPLER
+           org.eclipse.epp.package.jee.feature
+         -->
         <import feature="org.eclipse.cvs"/>
         <import feature="org.eclipse.help"/>
         <import feature="org.eclipse.jdt"/>
@@ -144,6 +148,8 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.eclipse.jst.webpageeditor.feature"/>
         <import feature="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature"/>
         <import feature="org.eclipse.jst.ws.axis2tools.feature"/>
+        <import feature="org.eclipse.jst.ws.axis2tools.feature"/>
+
         <import feature="org.eclipse.jpt.common.feature"/>
         <import feature="org.eclipse.jpt.common.eclipselink.feature"/>
         <import feature="org.eclipse.jpt.dbws.eclipselink.feature"/>
@@ -151,11 +157,21 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.eclipse.jpt.jaxb.feature"/>
         <import feature="org.eclipse.jpt.jpa.eclipselink.feature"/>
         <import feature="org.eclipse.jpt.jpa.feature"/>
-        <import feature="org.eclipse.jsf.feature"/>
-        <import feature="org.eclipse.jst.ws.jaxws.feature"/>
-        <import feature="org.eclipse.jst.ws.cxf.feature"/>
-        <import feature="org.eclipse.jst.ws.jaxws.dom.feature"/>
+
+        <import feature="org.eclipse.jsf.feature" />
+        <import feature="org.eclipse.jst.webpageeditor.feature"/>
+        <import feature="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature"/>
+
+        <import feature="org.eclipse.jst.ws.jaxws.feature" />
+        <import feature="org.eclipse.jst.ws.cxf.feature" />
+        <import feature="org.eclipse.jst.ws.jaxws.dom.feature" />
+
+        <import feature="org.eclipse.m2e.feature"/>
+        <import feature="org.eclipse.m2e.logback.feature"/>
+        <import feature="org.eclipse.m2e.wtp.feature"/>
+
         <import feature="org.eclipse.epp.package.common.feature"/>
+
         <import plugin="org.eclipse.epp.package.jee"/>
         <import plugin="org.eclipse.wtp.epp.package.jee.intro"/>
         <import plugin="org.eclipse.wtp.javascript.capabilities"/>

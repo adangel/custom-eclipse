@@ -150,7 +150,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="net.sf.jautodoc.feature"/>
         <import feature="biz.junginger.ExploreFS_Feature"/>
         <import feature="com.cenqua.clover"/>
-        <import feature="json.editor.plugin.feature"/>
+        <import feature="jsonedit-feature"/>
         <import feature="net.sf.jdtdecompiler.feature"/>
         <import feature="com.jutils.lint4j.core"/>
         <import feature="JDepend4Eclipse"/>
@@ -158,6 +158,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.jboss.tools.common.jdt.feature"/>
         <import feature="org.jboss.tools.jmx.feature"/>
         <import feature="org.hibernate.eclipse.feature"/>
+        <import feature="org.jboss.tools.maven.hibernate.feature"/>
         <import feature="org.jboss.ide.eclipse.freemarker.feature"/>
 
         <import feature="org.maven.ide.eclipse.ajdt.feature"/>
@@ -180,7 +181,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.bitstrings.eclipse.m2e.connectors.jaxb2.features"/>
         <import feature="org.bitstrings.eclipse.m2e.connectors.xmlbeans.features"/>
         <import feature="nl.mwensveen.m2e.extras.antrun.feature"/>
-        <import feature="org.testng.eclipse"/>
+        <import plugin="org.testng.eclipse"/>
         <import feature="org.apache.maven.doxia.ide.eclipse.feature"/>
         <import feature="markdown.editor.feature"/>
 

@@ -7,14 +7,14 @@
   
   <properties>
     <tycho-version>0.18.1</tycho-version>
-    <product-name>eclipse-juno-4.2.2-branded</product-name>
+    <product-name>eclipse-kepler-4.3.0-branded</product-name>
   </properties>
   
   <repositories>
     <repository>
         <id>mirror</id>
         <layout>p2</layout>
-        <url>file://${user.home}/mirror-eclipse-p2/</url>
+        <url>file://${user.home}/mirror-eclipse-kepler/</url>
     </repository>
   </repositories>
   

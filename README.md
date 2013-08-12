@@ -58,13 +58,13 @@ List of the contained plugins with update sites in no specific order.
 
 ## References
 
-* Eclipse Magazin (http://www.eclipse-magazin.de), Issue 5.12, Page 52
-* http://wiki.eclipse.org/Tycho/Demo_Projects/RCP_Application
-* https://github.com/rombert/scripts/blob/master/bin/mirror_eclipse_update_site.sh
-* http://wiki.eclipse.org/Equinox_p2_Repository_Mirroring
-* http://stackoverflow.com/questions/1371176/downloading-eclipse-plug-in-update-sites-for-offline-installation
-* http://wiki.eclipse.org/Equinox/p2/Publisher#Features_And_Bundles_Publisher_Application
-* http://wiki.eclipse.org/Tycho/Packaging_Types
-* http://eclipse.org/tycho/sitedocs/tycho-p2/tycho-p2-director-plugin/archive-products-mojo.html
-* http://stackoverflow.com/questions/8583878/rename-zip-files-created-by-tycho-p2-director-plugin
+* [Eclipse Magazin](http://www.eclipse-magazin.de), Issue 5.12, Page 52
+* <http://wiki.eclipse.org/Tycho/Demo_Projects/RCP_Application>
+* <https://github.com/rombert/scripts/blob/master/bin/mirror_eclipse_update_site.sh>
+* <http://wiki.eclipse.org/Equinox_p2_Repository_Mirroring>
+* <http://stackoverflow.com/questions/1371176/downloading-eclipse-plug-in-update-sites-for-offline-installation>
+* <http://wiki.eclipse.org/Equinox/p2/Publisher#Features_And_Bundles_Publisher_Application>
+* <http://wiki.eclipse.org/Tycho/Packaging_Types>
+* <http://eclipse.org/tycho/sitedocs/tycho-p2/tycho-p2-director-plugin/archive-products-mojo.html>
+* <http://stackoverflow.com/questions/8583878/rename-zip-files-created-by-tycho-p2-director-plugin>
 
