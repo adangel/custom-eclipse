@@ -6,7 +6,7 @@
    </description>
 
    <copyright>
-      (c) Copyright 2013 https://github.com/adangel/custom-eclipse
+      (c) Copyright 2014 https://github.com/adangel/custom-eclipse
    </copyright>
 
    <license url="http://www.eclipse.org/org/documents/epl-v10.html">
@@ -102,7 +102,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
     <requires>
         <!-- From
            http://www.eclipse.org/epp/
-           http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.jee.feature/feature.xml?h=KEPLER
+           http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.jee.feature/feature.xml?h=master
            org.eclipse.epp.package.jee.feature
          -->
         <import feature="org.eclipse.cvs"/>
@@ -117,6 +117,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.eclipse.mylyn_feature"/>
         <import feature="org.eclipse.mylyn.wikitext_feature"/>
         <import feature="org.eclipse.egit"/>
+        <import feature="org.eclipse.egit.import"/>
         <import feature="org.eclipse.egit.mylyn"/>
         <import feature="org.eclipse.rse"/>
         <import feature="org.eclipse.rse.useractions"/>
@@ -169,9 +170,13 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.eclipse.m2e.feature"/>
         <import feature="org.eclipse.m2e.logback.feature"/>
         <import feature="org.eclipse.m2e.wtp.feature"/>
+        <import feature="org.eclipse.m2e.wtp.jaxrs.feature"/>
+        <import feature="org.eclipse.m2e.wtp.jpa.feature"/>
+        <import feature="org.eclipse.m2e.wtp.jsf.feature"/>
 
         <import feature="org.eclipse.epp.package.common.feature"/>
 
+        <!-- Additional eclipse features / plugins -->
         <import plugin="org.eclipse.epp.package.jee"/>
         <import plugin="org.eclipse.wtp.epp.package.jee.intro"/>
         <import plugin="org.eclipse.wtp.javascript.capabilities"/>
@@ -180,7 +185,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import plugin="org.eclipse.wtp.xml.capabilities"/>
         <import plugin="org.eclipse.wtp.epp.package.capabilities"/>
 
-        <!-- Additional eclipse features / plugins -->
         <import feature="org.eclipse.emf"/>
         <import feature="org.eclipse.emf.ecore"/>
         <import feature="org.eclipse.emf.common"/>
