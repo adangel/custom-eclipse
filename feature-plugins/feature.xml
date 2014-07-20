@@ -172,7 +172,9 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.sonatype.m2e.plexus.annotations.feature"/>
 
         <import feature="org.jboss.tools.m2e.jdt.feature"/>
+<!--
         <import feature="com.atlassian.connector.eclipse"/>
+-->
         <import feature="com.tetrade.eclipse.plugins.easyshell.feature"/>
 
         <import feature="org.eclipse.m2e.wtp.feature"/>

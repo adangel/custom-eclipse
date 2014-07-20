@@ -7,14 +7,14 @@
   
   <properties>
     <tycho-version>0.18.1</tycho-version>
-    <product-name>eclipse-kepler-4.3.0-branded</product-name>
+    <product-name>eclipse-luna-4.4.0-branded</product-name>
   </properties>
   
   <repositories>
     <repository>
         <id>mirror</id>
         <layout>p2</layout>
-        <url>file://${user.home}/mirror-eclipse-kepler/</url>
+        <url>file://${user.home}/mirror-eclipse-luna/</url>
     </repository>
   </repositories>
   

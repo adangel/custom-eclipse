@@ -10,7 +10,7 @@ downloads=./downloads/
 # Local directory for the old-style update site mirror
 site_mirror=./mirror-sites/
 # Local p2 repo
-target_p2=file://$HOME/mirror-eclipse-kepler/
+target_p2=file://$HOME/mirror-eclipse-luna/
 
 #
 # Mirrors an old-style update site (not a p2 repository)
@@ -172,29 +172,32 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #mirror_site "http://pluginbox.sourceforge.net/"
 
 #
-#http://svnkit.com/download.php
-#mirror_site "http://eclipse.svnkit.com/1.7.x/"
+# http://svnkit.com/download.php
+#mirror_site "http://eclipse.svnkit.com/1.8.x/"
 #convert_site
 
 #
 # http://wiki.eclipse.org/Simultaneous_Release
 #
-# kepler
-#mirror_p2 "http://download.eclipse.org/releases/kepler/"
+# luna
+#mirror_p2 "http://download.eclipse.org/releases/luna/"
 #mirror_p2 "http://download.eclipse.org/mylyn/releases/latest"
 
 # other plugins
+#
+# http://www.eclipse.org/recommenders/
+#
+mirror_p2 "http://download.eclipse.org/recommenders/updates/stable/"
 #mirror_p2 "http://eclipse-cs.sourceforge.net/update"
-#mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.3"
+# http://spring.io/tools
+#mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.4"
 #mirror_p2 "http://download.eclipse.org/technology/m2e/releases"
 #mirror_p2 "http://update.eclemma.org/"
 #mirror_p2 "https://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/"
 #mirror_p2 "http://download.eclipse.org/egit/updates"
 #mirror_p2 "http://subclipse.tigris.org/update_1.10.x"
-#mirror_p2 "http://download.jboss.org/jbosstools/updates/stable/kepler/"
-
-# https://confluence.atlassian.com/display/IDEPLUGIN/Installing+the+Eclipse+Connector
-#mirror_p2 "http://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/"
+# http://tools.jboss.org/downloads/jbosstools/luna/
+#mirror_p2 "http://download.jboss.org/jbosstools/updates/development/luna/"
 
 #
 # http://m2e-code-quality.github.com/m2e-code-quality/
@@ -206,13 +209,11 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 # org.sonatype.m2e. m2e connectors
 # see also: http://repo.maven.apache.org/maven2/.m2e/discovery-catalog/connectors.xml
 #
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201212120353/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.15.0/N/0.15.0.201212080009/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-modello/0.16.0/N/0.16.0.201302171621/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-modello/0.15.0/N/0.15.0.201207090125/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-plexus/0.15.0/N/0.15.0.201302101151/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-tycho/0.6.0/N/0.6.0.201210231015/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-tycho/0.7.0/N/0.7.0.201302171659/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201405280027/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.16.0/N/0.16.0.201405271551/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-modello/0.16.0/N/0.16.0.201405281447/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-plexus/0.15.0/N/0.15.0.201405271722/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-tycho/0.7.0/N/0.7.0.201405280948/"
 #mirror_p2 "http://dist.springsource.org/release/AJDT/composite/"
 #mirror_p2 "http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/"
 #mirror_p2 "http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/1.0.1-2012-09-20_05-03-18-H2/"
@@ -265,7 +266,7 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #
 # http://www.eclipse.org/rap/
 #
-mirror_p2 "http://download.eclipse.org/rt/rap/tools/2.1/"
+#mirror_p2 "http://download.eclipse.org/rt/rap/tools/2.1/"
 
 #download_convert "rbe" "http://sourceforge.net/projects/eclipse-rbe/files/Eclipse%203.x/0.8.0/ResourceBundleEditor_v0.8.0.zip"
 #download_convert_plugins "jutils" "http://sourceforge.net/projects/eclipse-jutils/files/eclipse-jutils/eclipse-jutils%20plugin%20v3.1/org.adarsh.jutils_3.1.0.zip"
