@@ -127,7 +127,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.springframework.ide.eclipse.maven.feature.source"/>
         <import feature="org.springframework.ide.eclipse.security.feature.source"/>
         <import feature="org.springframework.ide.eclipse.data.feature.source"/>
-        <import feature="org.eclipse.m2e.feature"/>
         <import feature="edu.umd.cs.findbugs.plugin.eclipse"/>
         <import feature="com.mountainminds.eclemma.feature"/>
         <import feature="net.sourceforge.pmd.eclipse"/>
@@ -144,12 +143,10 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="net.java.dev.jna"/>
         <import feature="org.tigris.subversion.clientadapter.svnkit.feature"/>
         <import feature="org.tmatesoft.svnkit"/>
-        <import feature="org.eclipse.jenkins"/>
         <import feature="com.aptana.feature.studio"/>
 
         <import feature="net.sf.jautodoc.feature"/>
         <import feature="biz.junginger.ExploreFS_Feature"/>
-        <import feature="com.cenqua.clover"/>
         <import feature="jsonedit-feature"/>
         <import feature="net.sf.jdtdecompiler.feature"/>
         <import feature="com.jutils.lint4j.core"/>
@@ -171,23 +168,27 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.sonatype.m2e.modello.feature"/>
         <import feature="org.sonatype.m2e.plexus.annotations.feature"/>
 
-        <import feature="org.jboss.tools.m2e.jdt.feature"/>
-<!--
-        <import feature="com.atlassian.connector.eclipse"/>
--->
         <import feature="com.tetrade.eclipse.plugins.easyshell.feature"/>
 
-        <import feature="org.eclipse.m2e.wtp.feature"/>
+        <import feature="org.jboss.tools.m2e.jdt.feature"/>
         <import feature="org.sonatype.tycho.m2e.feature"/>
 
         <import feature="org.bitstrings.eclipse.m2e.connectors.jaxb2.features"/>
         <import feature="org.bitstrings.eclipse.m2e.connectors.xmlbeans.features"/>
-        <import feature="nl.mwensveen.m2e.extras.antrun.feature"/>
-        <import plugin="org.testng.eclipse"/>
         <import feature="org.apache.maven.doxia.ide.eclipse.feature"/>
         <import feature="markdown.editor.feature"/>
 
+        <import feature="org.eclipse.mat.feature"/>
+        <import feature="org.eclipse.mat.chart.feature"/>
+
+        <import feature="org.eclipse.tcf.te.terminals.feature"/>
+
+        <import feature="org.testng.eclipse"/>
 <!--
+        <import feature="com.cenqua.clover"/>
+        <import feature="org.eclipse.jenkins"/>
+        <import feature="nl.mwensveen.m2e.extras.antrun.feature"/>
+        <import feature="com.atlassian.connector.eclipse"/>
         <import feature="com.soyatec.euml2.studio"/>
 -->
 

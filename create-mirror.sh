@@ -53,9 +53,11 @@ function mirror_p2()
 {
 echo -n "Mirroring P2 Repo: $1..."
 java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
+    -verbose \
     -application org.eclipse.equinox.p2.artifact.repository.mirrorApplication \
     -source $1 -destination $target_p2
 java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
+    -verbose \
     -application org.eclipse.equinox.p2.metadata.repository.mirrorApplication \
     -source $1 -destination $target_p2
 echo "done."
@@ -187,7 +189,7 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #
 # http://www.eclipse.org/recommenders/
 #
-mirror_p2 "http://download.eclipse.org/recommenders/updates/stable/"
+#mirror_p2 "http://download.eclipse.org/recommenders/updates/stable/"
 #mirror_p2 "http://eclipse-cs.sourceforge.net/update"
 # http://spring.io/tools
 #mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.4"
@@ -236,6 +238,10 @@ mirror_p2 "http://download.eclipse.org/recommenders/updates/stable/"
 # see http://testng.org/doc/eclipse.html
 #
 #mirror_p2 "http://beust.com/eclipse"
+# the p2 metadata doesn't seem to have the latest version, so mirror_site is needed
+#mirror_site "http://beust.com/eclipse"
+#convert_site
+
 
 #
 # Doxia editor for eclipse
@@ -254,6 +260,8 @@ mirror_p2 "http://download.eclipse.org/recommenders/updates/stable/"
 # http://www.aptana.com/products/studio3/download
 #
 #mirror_p2 "http://download.aptana.com/studio3/plugin/install"
+# dev-versions of aptana studio
+#mirror_p2 "http://studio-jenkins.appcelerator.org/job/studio3-feature-development/lastSuccessfulBuild/artifact/dist/"
 
 #
 # Python IDE: http://pydev.org/
