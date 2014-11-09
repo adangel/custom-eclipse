@@ -6,7 +6,7 @@
    </description>
 
    <copyright>
-      (c) Copyright 2013 https://github.com/adangel/custom-eclipse
+      (c) Copyright 2014 https://github.com/adangel/custom-eclipse
    </copyright>
 
    <license url="http://www.eclipse.org/org/documents/epl-v10.html">
@@ -102,7 +102,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
     <plugin id="branding" download-size="0" install-size="0" version="0.0.0" unpack="true"/>
 
     <requires>
-        <import plugin="com.essiembre.eclipse.i18n.resourcebundle"/>
         <import plugin="org.adarsh.jutils"/>
 
         <import feature="net.sf.eclipsecs"/>
@@ -184,6 +183,13 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.eclipse.tcf.te.terminals.feature"/>
 
         <import feature="org.testng.eclipse"/>
+
+        <import feature="com.essiembre.eclipse.rbe"/>
+
+        <import feature="FontsFeature"/>
+
+        <import feature="cucumber.eclipse.feature"/>
+
 <!--
         <import feature="com.cenqua.clover"/>
         <import feature="org.eclipse.jenkins"/>

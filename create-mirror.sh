@@ -276,7 +276,27 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #
 #mirror_p2 "http://download.eclipse.org/rt/rap/tools/2.1/"
 
-#download_convert "rbe" "http://sourceforge.net/projects/eclipse-rbe/files/Eclipse%203.x/0.8.0/ResourceBundleEditor_v0.8.0.zip"
+#
+# Eclipse Resource Bundle Editor
+# http://essiembre.github.io/eclipse-rbe/
+# https://github.com/essiembre/eclipse-rbe
+#
+#mirror_p2 "https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclipse-rbe-update-site/"
+
+#
+# Eclipse Fonts
+#
+# https://code.google.com/p/eclipse-fonts/
+#
+#mirror_p2 "http://eclipse-fonts.googlecode.com/svn/trunk/FontsUpdate/"
+
+#
+# Cucumber/Gherkin Editor
+# http://cukes.info/cucumber-eclipse/
+#
+#mirror_p2 "http://cucumber.github.com/cucumber-eclipse/update-site/"
+
+
 #download_convert_plugins "jutils" "http://sourceforge.net/projects/eclipse-jutils/files/eclipse-jutils/eclipse-jutils%20plugin%20v3.1/org.adarsh.jutils_3.1.0.zip"
 #download_convert "json" "http://sourceforge.net/projects/eclipsejsonedit/files/eclipsejsonedit/Json%20Editor%20Plugin%200.9.7/jsonedit-repository-0.9.7.zip"
 
