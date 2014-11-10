@@ -288,13 +288,17 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #
 # https://code.google.com/p/eclipse-fonts/
 #
-#mirror_p2 "http://eclipse-fonts.googlecode.com/svn/trunk/FontsUpdate/"
+# Note: seems not to be a correct p2 repo (missing artifacts): #mirror_p2 "http://eclipse-fonts.googlecode.com/svn/trunk/FontsUpdate/"
+#mirror_site "http://eclipse-fonts.googlecode.com/svn/trunk/FontsUpdate/"
+#convert_site
 
 #
 # Cucumber/Gherkin Editor
 # http://cukes.info/cucumber-eclipse/
 #
-#mirror_p2 "http://cucumber.github.com/cucumber-eclipse/update-site/"
+# Note: seems not to be a correct p2 repo (missing artifacts): #mirror_p2 "http://cucumber.github.com/cucumber-eclipse/update-site/"
+#mirror_site "http://cucumber.github.com/cucumber-eclipse/update-site/"
+#convert_site
 
 
 #download_convert_plugins "jutils" "http://sourceforge.net/projects/eclipse-jutils/files/eclipse-jutils/eclipse-jutils%20plugin%20v3.1/org.adarsh.jutils_3.1.0.zip"
