@@ -7,7 +7,7 @@
   
   <properties>
     <tycho-version>0.20.0</tycho-version>
-    <product-name>eclipse-luna-4.4.0-branded</product-name>
+    <product-name>eclipse-luna-4.4.1-branded</product-name>
   </properties>
   
   <repositories>
