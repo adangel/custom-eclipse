@@ -256,7 +256,9 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.eclipse.mylyn.subclipse"/>
         <import feature="org.eclipse.recommenders.feature.rcp"/>
         <import feature="org.eclipse.jpt.jpadiagrameditor.feature"/>
+        <!--
         <import feature="org.eclipse.rap.tools"/>
+        -->
         <import plugin="javax.el"/>
         <import plugin="org.eclipse.core.runtime"/>
         <import plugin="org.eclipse.equinox.ds"/>

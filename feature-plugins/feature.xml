@@ -144,7 +144,9 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="net.java.dev.jna"/>
         <import feature="org.tigris.subversion.clientadapter.svnkit.feature"/>
         <import feature="org.tmatesoft.svnkit"/>
+<!--
         <import feature="com.aptana.feature.studio"/>
+-->
 
         <import feature="net.sf.jautodoc.feature"/>
         <import feature="biz.junginger.ExploreFS_Feature"/>
@@ -191,6 +193,8 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="FontsFeature"/>
 
         <import feature="cucumber.eclipse.feature"/>
+
+        <import feature="se.weightpoint.jslint.feature"/>
 
 <!--
         <import feature="com.cenqua.clover"/>

@@ -4,7 +4,7 @@
 # Configuration:
 #
 # Base path to an eclipse installation. Note: This needs to be a prior 4.2 version! E.g. 3.7/indigo
-eclipse_home=$HOME/Programs/eclipse-3.7.1-jee-indigo-SR1
+eclipse_home=$HOME/programs/eclipse-3.7.1-jee-indigo-SR1
 # Local directory for downloads (see download_convert*() and svn_site_checkout())
 downloads=./downloads/
 # Local directory for the old-style update site mirror
@@ -212,10 +212,11 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 # see also: http://repo.maven.apache.org/maven2/.m2e/discovery-catalog/connectors.xml
 #
 #mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201405280027/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.16.0/N/0.16.0.201405271551/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-modello/0.16.0/N/0.16.0.201405281447/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-plexus/0.15.0/N/0.15.0.201405271722/"
-#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-tycho/0.7.0/N/0.7.0.201405280948/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.17.0/N/LATEST/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-modello/0.16.0/N/LATEST/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-plexus/0.15.0/N/LATEST/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-tycho/0.9.0/N/LATEST/"
+#mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-antlr/0.15.0/N/0.15.0.201405281449/"
 #mirror_p2 "http://dist.springsource.org/release/AJDT/composite/"
 #mirror_p2 "http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/"
 #mirror_p2 "http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/1.0.1-2012-09-20_05-03-18-H2/"
@@ -305,3 +306,8 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 #download_convert "json" "http://sourceforge.net/projects/eclipsejsonedit/files/eclipsejsonedit/Json%20Editor%20Plugin%200.9.7/jsonedit-repository-0.9.7.zip"
 
 #svn_site_checkout "grinderstone" "http://grinderstone.googlecode.com/svn/update/"
+
+#
+# https://github.com/weightpoint/jslint-eclipse
+#
+#mirror_p2 "http://weightpoint.github.io/jslint-eclipse/updates/"
