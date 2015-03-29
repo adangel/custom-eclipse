@@ -10,4 +10,49 @@
     <version>1.0.0-SNAPSHOT</version>
     <relativePath>../</relativePath>
   </parent>
+
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.bitstrings.maven.plugins</groupId>
+            <artifactId>splasher-maven-plugin</artifactId>
+            <version>1.1.0</version>
+            <executions>
+                <execution>
+                    <id>splash</id>
+                    <phase>generate-resources</phase>
+                    <goals>
+                        <goal>compose</goal>
+                    </goals>
+                    <configuration>
+                        <resources>
+                            <loadImage>
+                                <imageFile>splash-base.bmp</imageFile>
+                                <name>base</name>
+                            </loadImage>
+                        </resources>
+                        <outputImageFormat>PNG</outputImageFormat>
+                        <outputImageFile>splash.bmp</outputImageFile>
+                        <canvas>
+                            <size>452x302</size>
+                            <backgroundColor>WHITE</backgroundColor>
+                            <draw>
+                                <drawImage>
+                                    <imageName>base</imageName>
+                                    <position>center,center</position>
+                                </drawImage>
+                                <drawText>
+                                    <text>${splash-subtitle}</text>
+                                    <textColor>#000000</textColor>
+                                    <fontSize>48</fontSize>
+                                    <position>center,center</position>
+                                </drawText>
+                            </draw>
+                        </canvas>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+  </build>
 </project>

@@ -8,6 +8,7 @@
   <properties>
     <tycho-version>0.22.0</tycho-version>
     <product-name>eclipse-luna-4.4.2-branded</product-name>
+    <splash-subtitle>4.4 SR2 (Luna)</splash-subtitle>
   </properties>
   
   <repositories>
