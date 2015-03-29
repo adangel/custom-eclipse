@@ -147,4 +147,8 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="3" />
    </configurations>
 
+   <repositories>
+      <repository location="http://download.eclipse.org/eclipse/updates/4.4" enabled="true" />
+   </repositories>
+
 </product>
