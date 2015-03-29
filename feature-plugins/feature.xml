@@ -143,7 +143,9 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.tigris.subversion.subclipse.graph.feature"/>
         <import feature="net.java.dev.jna"/>
         <import feature="org.tigris.subversion.clientadapter.svnkit.feature"/>
-        <import feature="org.tmatesoft.svnkit"/>
+
+        <!-- Due to http://issues.tmatesoft.com/issue/SVNKIT-555 an older version is required -->
+        <import feature="org.tmatesoft.svnkit" version="1.8.5.r10237_v20140319_1934" match="perfect"/>
 <!--
         <import feature="com.aptana.feature.studio"/>
 -->

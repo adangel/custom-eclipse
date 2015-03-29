@@ -177,6 +177,8 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 # http://svnkit.com/download.php
 #mirror_site "http://eclipse.svnkit.com/1.8.x/"
 #convert_site
+#Due to http://issues.tmatesoft.com/issue/SVNKIT-555 an older version is required
+#download_convert "svnkit1.8.5" "http://www.svnkit.com/org.tmatesoft.svn_1.8.5.eclipse.zip"
 
 #
 # http://wiki.eclipse.org/Simultaneous_Release
