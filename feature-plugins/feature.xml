@@ -139,7 +139,9 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="com.collabnet.subversion.merge.feature"/>
         <import feature="org.tigris.subversion.subclipse.mylyn"/>
         <import feature="org.tigris.subversion.clientadapter.feature"/>
+        <!-- don't install javahl - use svnkit instead
         <import feature="org.tigris.subversion.clientadapter.javahl.feature"/>
+        -->
         <import feature="org.tigris.subversion.subclipse.graph.feature"/>
         <import feature="net.java.dev.jna"/>
         <import feature="org.tigris.subversion.clientadapter.svnkit.feature"/>
