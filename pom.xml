@@ -6,8 +6,8 @@
   <packaging>pom</packaging>
   
   <properties>
-    <tycho-version>0.21.0</tycho-version>
-    <product-name>eclipse-luna-4.4.1-branded</product-name>
+    <tycho-version>0.22.0</tycho-version>
+    <product-name>eclipse-luna-4.4.2-branded</product-name>
   </properties>
   
   <repositories>

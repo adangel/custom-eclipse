@@ -67,4 +67,7 @@ List of the contained plugins with update sites in no specific order.
 * <http://wiki.eclipse.org/Tycho/Packaging_Types>
 * <http://eclipse.org/tycho/sitedocs/tycho-p2/tycho-p2-director-plugin/archive-products-mojo.html>
 * <http://stackoverflow.com/questions/8583878/rename-zip-files-created-by-tycho-p2-director-plugin>
+* <http://wiki.eclipse.org/Simultaneous_Release>
+* <http://wiki.eclipse.org/Eclipse_Project_Update_Sites>
+
 

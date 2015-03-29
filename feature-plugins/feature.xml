@@ -6,7 +6,7 @@
    </description>
 
    <copyright>
-      (c) Copyright 2014 https://github.com/adangel/custom-eclipse
+      (c) Copyright 2015 https://github.com/adangel/custom-eclipse
    </copyright>
 
    <license url="http://www.eclipse.org/org/documents/epl-v10.html">
@@ -174,8 +174,8 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.jboss.tools.m2e.jdt.feature"/>
         <import feature="org.sonatype.tycho.m2e.feature"/>
 
-        <import feature="org.bitstrings.eclipse.m2e.connectors.jaxb2.features"/>
-        <import feature="org.bitstrings.eclipse.m2e.connectors.xmlbeans.features"/>
+        <import feature="org.bitstrings.eclipse.m2e.connectors.jaxb2.feature"/>
+        <import feature="org.bitstrings.eclipse.m2e.connectors.xmlbeans.feature"/>
         <import feature="org.apache.maven.doxia.ide.eclipse.feature"/>
         <import feature="markdown.editor.feature"/>
 
