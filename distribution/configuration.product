@@ -11,8 +11,7 @@
 --launcher.defaultAction openFile
 -showsplash
 branding</programArgs>
-      <programArgsWin>--launcher.XXMaxPermSize
-384M</programArgsWin>
+      <programArgsWin></programArgsWin>
       <vmArgs>-Dosgi.requiredJavaVersion=1.5
 -Dhelp.lucene.tokenizer=standard
 -Xms40m
@@ -20,18 +19,13 @@ branding</programArgs>
 -Dfile.encoding=UTF-8
 -javaagent:plugins/lombok_1.16.2/target/lib/lombok.jar
 </vmArgs>
-      <vmArgsLin>-XX:MaxPermSize=384m</vmArgsLin>
-      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
--XX:MaxPermSize=384m</vmArgsMac>
+      <vmArgsLin></vmArgsLin>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
    <windowImages/>
 
-   <splash
-      location="branding"
-      startupProgressRect="5,275,445,15"
-      startupMessageRect="7,252,445,20"
-      startupForegroundColor="000000" />
+   <splash location="branding" />
    <launcher>
    </launcher>
 
