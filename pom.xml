@@ -109,6 +109,7 @@
 
   <modules>
       <module>branding</module>
+      <module>lombok</module>
       <module>feature</module>
       <module>feature-plugins</module>
       <module>distribution</module>

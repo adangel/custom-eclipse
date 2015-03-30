@@ -100,6 +100,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
    </license>
 
     <plugin id="branding" download-size="0" install-size="0" version="0.0.0" unpack="true"/>
+    <plugin id="lombok" download-size="0" install-size="0" version="0.0.0" unpack="true"/>
 
     <requires>
         <!-- doesn't provide a proper bundle symbolic name - META-INF/MANIFEST.MF is missing

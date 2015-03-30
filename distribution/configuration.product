@@ -17,7 +17,9 @@ branding</programArgs>
 -Dhelp.lucene.tokenizer=standard
 -Xms40m
 -Xmx1024m
--Dfile.encoding=UTF-8</vmArgs>
+-Dfile.encoding=UTF-8
+-javaagent:plugins/lombok_1.16.2/target/lib/lombok.jar
+</vmArgs>
       <vmArgsLin>-XX:MaxPermSize=384m</vmArgsLin>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
 -XX:MaxPermSize=384m</vmArgsMac>

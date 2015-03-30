@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Lombok
+Bundle-SymbolicName: lombok
+Bundle-Version: 1.16.2
+Eclipse-BundleShape: dir
