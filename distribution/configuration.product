@@ -144,13 +144,13 @@ This Agreement is governed by the laws of the State of New York and the intellec
    </configurations>
 
    <repositories>
+      <repository location="http://download.eclipse.org/releases/luna/" enabled="true" />
       <repository location="http://download.eclipse.org/eclipse/updates/4.4" enabled="true" />
       <repository location="http://dist.springsource.com/release/TOOLS/update/e4.4" enabled="true" />
       <repository location="http://eclipse-cs.sourceforge.net/update" enabled="true" />
       <repository location="https://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/" enabled="true" />
       <repository location="http://findbugs.cs.umd.edu/eclipse/" enabled="true" />
-      <repository location="http://subclipse.tigris.org/update_1.10.x" enabled="true" />
-      <repository location="http://eclipse.svnkit.com/1.8.x/" enabled="true" />
+      <repository location="http://download.eclipse.org/technology/subversive/2.0/update-site/" enabled="true" />
    </repositories>
 
 </product>

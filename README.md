@@ -34,7 +34,6 @@ List of the contained plugins with update sites in no specific order.
 * [EclEmma](http://www.eclemma.org/) - <http://update.eclemma.org/>
 * [PMD](http://pmd.sourceforge.net) - <http://pmd.sourceforge.net/eclipse/>
 * [EGit](http://www.eclipse.org/egit/) - <http://download.eclipse.org/egit/updates>
-* [Subclipse](http://subclipse.tigris.org/) - <http://subclipse.tigris.org/update_1.8.x/>
 * [Jenkins](https://code.google.com/p/jenkins-eclipse-plugin/) - <http://jenkins-eclipse-plugin.googlecode.com/svn/trunk/jenkins-update/>
 * [Aptana Studio 3](http://www.aptana.com/products/studio3) - <http://download.aptana.com/studio3/plugin/install>
 * [JAutodoc](http://jautodoc.sourceforge.net/) - <http://jautodoc.sourceforge.net/update/>
@@ -54,7 +53,10 @@ List of the contained plugins with update sites in no specific order.
 * [TestNG](http://testng.org/doc/eclipse.html) - <http://beust.com/eclipse>
 * [Doxia IDE](http://maven.apache.org/doxia/doxia-ide/eclipse/) - <http://maven.apache.org/doxia/doxia-ide/eclipse/eclipse/>
 * [Markdown Editor](http://www.winterwell.com/software/markdown-editor.php) - <http://www.winterwell.com/software/updatesite/>
-
+* [JSLint integration for the Eclipse IDE](https://github.com/weightpoint/jslint-eclipse) - <http://weightpoint.github.io/jslint-eclipse/updates/>
+* [APT-Connector for M2E](https://code.google.com/p/apt-m2e/) - <http://apt-m2e.googlecode.com/git/updateSite/>
+* [Optimizer for Eclipse](http://zeroturnaround.com/free/optimizer-for-eclipse/) - <http://update.zeroturnaround.com/free-tools/site/>
+* [Eclipse Subversive - Subversion (SVN) Team Provider](http://eclipse.org/subversive/) - <http://download.eclipse.org/technology/subversive/2.0/update-site/>
 
 ## References
 

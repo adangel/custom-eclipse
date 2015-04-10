@@ -313,3 +313,27 @@ java -jar $eclipse_home/plugins/org.eclipse.equinox.launcher_*.jar \
 # https://github.com/weightpoint/jslint-eclipse
 #
 #mirror_p2 "http://weightpoint.github.io/jslint-eclipse/updates/"
+
+#
+# https://code.google.com/p/apt-m2e/
+# APT-Connector for M2E
+#
+#mirror_p2 "http://apt-m2e.googlecode.com/git/updateSite/"
+
+#
+# Optimizer for Eclipse
+# http://zeroturnaround.com/free/optimizer-for-eclipse/
+#
+#mirror_p2 "http://update.zeroturnaround.com/free-tools/site/"
+
+#
+# Eclipse Subversive - Subversion (SVN) Team Provider
+# http://eclipse.org/subversive/
+#
+#mirror_p2 "http://download.eclipse.org/technology/subversive/2.0/update-site/"
+
+#
+# Download Subversive Subversion Team Provider for Eclipse - the connectors
+# http://www.polarion.com/products/svn/subversive/download.php
+#
+#mirror_p2 "http://community.polarion.com/projects/subversive/download/eclipse/4.0/luna-site"

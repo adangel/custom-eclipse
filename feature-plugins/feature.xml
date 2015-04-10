@@ -132,26 +132,45 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="edu.umd.cs.findbugs.plugin.eclipse"/>
         <import feature="com.mountainminds.eclemma.feature"/>
         <import feature="net.sourceforge.pmd.eclipse"/>
+
         <import feature="org.eclipse.egit"/>
         <import feature="org.eclipse.egit.mylyn"/>
         <import feature="org.eclipse.jgit"/>
         <import feature="org.eclipse.jgit.pgm"/>
+
+        <!-- subversive -->
+        <import feature="org.eclipse.team.svn"/>
+        <import feature="org.eclipse.team.svn.revision.graph"/>
+        <import feature="org.eclipse.team.svn.mylyn"/>
+        <import feature="org.eclipse.team.svn.resource.ignore.rules.jdt"/>
+        <import feature="org.polarion.eclipse.team.svn.connector"/>
+        <!--
+        <import feature="org.polarion.eclipse.team.svn.connector.javahl18"/>
+        <import feature="org.polarion.eclipse.team.svn.connector.javahl18.win64"/>
+        -->
+        <import feature="org.polarion.eclipse.team.svn.connector.svnkit18"/>
+
+        <!-- Note: Instead of subclipse, subversive is installed -->
+        <!--
         <import feature="org.tigris.subversion.subclipse"/>
         <import feature="com.collabnet.subversion.merge.feature"/>
         <import feature="org.tigris.subversion.subclipse.mylyn"/>
         <import feature="org.tigris.subversion.clientadapter.feature"/>
+        -->
         <!-- don't install javahl - use svnkit instead
         <import feature="org.tigris.subversion.clientadapter.javahl.feature"/>
         -->
+        <!--
         <import feature="org.tigris.subversion.subclipse.graph.feature"/>
         <import feature="net.java.dev.jna"/>
         <import feature="org.tigris.subversion.clientadapter.svnkit.feature"/>
-
+        -->
         <!-- Due to http://issues.tmatesoft.com/issue/SVNKIT-555 an older version is required -->
-        <import feature="org.tmatesoft.svnkit" version="1.8.5.r10237_v20140319_1934" match="perfect"/>
 <!--
-        <import feature="com.aptana.feature.studio"/>
+        <import feature="org.tmatesoft.svnkit" version="1.8.5.r10237_v20140319_1934" match="perfect"/>
 -->
+
+        <import feature="com.aptana.feature.studio"/>
 
         <import feature="net.sf.jautodoc.feature"/>
         <import feature="biz.junginger.ExploreFS_Feature"/>
@@ -200,6 +219,10 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="cucumber.eclipse.feature"/>
 
         <import feature="se.weightpoint.jslint.feature"/>
+
+        <import feature="de.joe.m2e.apt.feature"/>
+
+        <import feature="com.zeroturnaround.eclipse.optimizer.feature"/>
 
 <!--
         <import feature="com.cenqua.clover"/>

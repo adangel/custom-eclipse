@@ -229,6 +229,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.eclipse.jst.web_core.feature"/>
         <import feature="org.eclipse.jst.web_userdoc.feature"/>
         <import feature="org.eclipse.jst.ws.jaxws_userdoc.feature"/>
+        <import feature="org.eclipse.jst.ws.jaxws.dom.feature"/>
         <import feature="org.eclipse.wst.common_core.feature"/>
         <import feature="org.eclipse.wst.common_ui.feature"/>
         <import feature="org.eclipse.wst.server_core.feature"/>
@@ -253,8 +254,8 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.eclipse.wb.core.xml.feature"/>
         <import feature="org.eclipse.mylyn.hudson"/>
         <import feature="org.eclipse.mylyn.git"/>
-        <import feature="org.eclipse.mylyn.subclipse"/>
         <import feature="org.eclipse.recommenders.feature.rcp"/>
+        <import feature="org.eclipse.recommenders.snipmatch.rcp.feature"/>
         <import feature="org.eclipse.jpt.jpadiagrameditor.feature"/>
         <!--
         <import feature="org.eclipse.rap.tools"/>
