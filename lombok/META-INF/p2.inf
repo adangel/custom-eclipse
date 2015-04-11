@@ -1,0 +1,10 @@
+instructions.install = \
+  addJvmArg(jvmArg:-javaagent:${artifact.location}/target/lib/lombok.jar);
+instructions.install.import = \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addJvmArg, \
+  org.eclipse.equinox.p2.touchpoint.eclipse.removeJvmArg
+instructions.uninstall = \
+  removeJvmArg(jvmArg:-javaagent:${artifact.location}/target/lib/lombok.jar);
+instructions.uninstall.import = \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addJvmArg, \
+  org.eclipse.equinox.p2.touchpoint.eclipse.removeJvmArg

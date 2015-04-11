@@ -20,7 +20,6 @@ branding</programArgs>
 -Xmx1024m
 -Dfile.encoding=UTF-8
 -server
--javaagent:plugins/lombok_1.16.2/target/lib/lombok.jar
 </vmArgs>
       <vmArgsLin></vmArgsLin>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
