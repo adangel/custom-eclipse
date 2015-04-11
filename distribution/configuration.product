@@ -14,9 +14,12 @@ branding</programArgs>
       <programArgsWin></programArgsWin>
       <vmArgs>-Dosgi.requiredJavaVersion=1.5
 -Dhelp.lucene.tokenizer=standard
--Xms40m
+-XX:+UseParallelGC
+-Xverify:none
+-Xms512m
 -Xmx1024m
 -Dfile.encoding=UTF-8
+-server
 -javaagent:plugins/lombok_1.16.2/target/lib/lombok.jar
 </vmArgs>
       <vmArgsLin></vmArgsLin>
