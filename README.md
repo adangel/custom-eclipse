@@ -8,7 +8,8 @@ Build an own, branded eclipse with a couple of plugins already installed an sele
 2. Execute create-mirror.sh
 3. Drink coffee. This can take a while. If every update site is enabled, you'll download about 5 gigabytes.
 4. Have a look at "branding". This is a eclipse plugin which brings
-    * A splash screen. Replace "splash.bmp" with your own.
+    * A splash screen. Replace "splash-base.bmp" with your own.
+    * The project uses "splasher-maven-plugin". Update the property `splash-subtitle` in the top-level pom.xml file.
     * Icons. Replace icon*.* with your own.
     * About dialog in eclipse. See plugin.xml/plugin.properties for details. See also about.gif for the logo
       in the about dialog.
@@ -20,6 +21,11 @@ that have been mirrored.
 own eclipse distribution. See the plugin "target-platform-configuration" and the environments configuration.
 8. In the same top-level pom.xml file, update the repository path to your own mirror.
 9. Execute "mvn clean package". The result is stored under "distribution/target/products/".
+
+## Starting Eclipse
+
+The created eclipse distribution contains two javaagents: lombok and optimizer-for-eclipse.
+If eclipse doesn't start, you maybe need to adjust the paths in `eclipse.ini`.
 
 ## Plugins
 
