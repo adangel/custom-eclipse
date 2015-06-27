@@ -12,7 +12,7 @@
 -showsplash
 branding</programArgs>
       <programArgsWin></programArgsWin>
-      <vmArgs>-Dosgi.requiredJavaVersion=1.5
+      <vmArgs>-Dosgi.requiredJavaVersion=1.8
 -Dhelp.lucene.tokenizer=standard
 -XX:+UseParallelGC
 -Xverify:none
