@@ -10,15 +10,7 @@
     <product-name>eclipse-mars-4.5.0-branded</product-name>
     <splash-subtitle>4.5 (Mars)</splash-subtitle>
   </properties>
-  
-  <repositories>
-    <repository>
-        <id>mirror</id>
-        <layout>p2</layout>
-        <url>file://${user.home}/mirror-eclipse-mars/</url>
-    </repository>
-  </repositories>
-  
+
   <build>
     <plugins>
         <plugin>
@@ -106,6 +98,35 @@
         </plugins>
     </pluginManagement>
   </build>
+
+  <profiles>
+    <profile>
+        <id>parent-repo</id>
+        <activation>
+            <file><exists>temp</exists></file>
+        </activation>
+        <repositories>
+          <repository>
+              <id>mirror</id>
+              <layout>p2</layout>
+              <url>file://${project.basedir}/temp/p2-mirror/</url>
+          </repository>
+        </repositories>
+    </profile>
+    <profile>
+        <id>child-repo</id>
+        <activation>
+            <file><exists>../temp</exists></file>
+        </activation>
+        <repositories>
+          <repository>
+              <id>mirror</id>
+              <layout>p2</layout>
+              <url>file://${project.basedir}/../temp/p2-mirror/</url>
+          </repository>
+        </repositories>
+    </profile>
+  </profiles>
 
   <modules>
       <module>branding</module>

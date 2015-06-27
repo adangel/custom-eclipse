@@ -1,8 +1,7 @@
 target/
 bin/
-mirror*/
-downloads*/
 .project
 .classpath
 .settings/
 branding/splash.bmp
+temp/
