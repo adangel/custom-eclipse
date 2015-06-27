@@ -7,15 +7,15 @@
   
   <properties>
     <tycho-version>0.22.0</tycho-version>
-    <product-name>eclipse-luna-4.4.2-branded</product-name>
-    <splash-subtitle>4.4 SR2 (Luna)</splash-subtitle>
+    <product-name>eclipse-mars-4.5.0-branded</product-name>
+    <splash-subtitle>4.5 (Mars)</splash-subtitle>
   </properties>
   
   <repositories>
     <repository>
         <id>mirror</id>
         <layout>p2</layout>
-        <url>file://${user.home}/mirror-eclipse-luna/</url>
+        <url>file://${user.home}/mirror-eclipse-mars/</url>
     </repository>
   </repositories>
   
