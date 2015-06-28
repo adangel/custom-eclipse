@@ -2,6 +2,13 @@
 
 Build an own, branded eclipse with a couple of plugins already installed an selected.
 
+## Download
+
+Prepackaged eclipse archives can be downloaded here:
+
+<https://sourceforge.net/projects/custom-eclipse/files/>
+
+
 ## How-To create eclipse yourself
 
 1.  Make sure, you have `zip`, `unzip`, `tar`, `sed`, `java`, `svn`, `wget` installed.
