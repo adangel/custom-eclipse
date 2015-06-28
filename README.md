@@ -2,25 +2,32 @@
 
 Build an own, branded eclipse with a couple of plugins already installed an selected.
 
-## How-To
+## How-To create eclipse yourself
 
-1. Review create-mirror.sh and comment/uncomment the update sites you want to mirror
-2. Execute create-mirror.sh
-3. Drink coffee. This can take a while. If every update site is enabled, you'll download about 5 gigabytes.
-4. Have a look at "branding". This is a eclipse plugin which brings
-    * A splash screen. Replace "splash-base.bmp" with your own.
-    * The project uses "splasher-maven-plugin". Update the property `splash-subtitle` in the top-level pom.xml file.
-    * Icons. Replace icon*.* with your own.
-    * About dialog in eclipse. See plugin.xml/plugin.properties for details. See also about.gif for the logo
-      in the about dialog.
-5. Have a look at "feature/feature.xml". This selects hopefully all the features, that come with the default
-Eclipse JEE bundle. You can add/remove features and plugins.
-6. Have a look at "feature-plugins/feature.xml". This select all additional features/plugins from external sites
-that have been mirrored.
-7. Have a look at the top-level pom.xml file. You can specify for which platforms you want to create an
-own eclipse distribution. See the plugin "target-platform-configuration" and the environments configuration.
-8. In the same top-level pom.xml file, update the repository path to your own mirror.
-9. Execute "mvn clean package". The result is stored under "distribution/target/products/".
+1.  Make sure, you have `zip`, `unzip`, `tar`, `sed`, `java`, `svn`, `wget` installed.
+2.  Review create-mirror.sh and comment/uncomment the update sites you want to mirror
+3.  Execute create-mirror.sh
+4.  Drink coffee. This can take a while. If every update site is enabled, you'll download about 5 gigabytes.
+    All the downloaded stuff will be placed under `temp/`.
+5.  Have a look at "branding". This is a eclipse plugin which brings
+    *   A splash screen. Replace "splash-base.bmp" with your own.
+    *   The project uses "splasher-maven-plugin". Update the property `splash-subtitle` in the top-level pom.xml file.
+    *   Icons. Replace icon*.* with your own.
+    *   About dialog in eclipse. See plugin.xml/plugin.properties for details. See also about.gif for the logo
+        in the about dialog.
+6.  Have a look at "feature/feature.xml". This selects hopefully all the features, that come with the default
+    Eclipse JEE bundle. You can add/remove features and plugins.
+7.  Have a look at "feature-plugins/feature.xml". This select all additional features/plugins from external sites
+    that have been mirrored.
+8.  Have a look at the top-level pom.xml file. You can specify for which platforms you want to create an
+    own eclipse distribution. See the plugin "target-platform-configuration" and the environments configuration.
+9.  In the same top-level pom.xml file, update the repository path to your own mirror.
+10. Execute `mvn clean package`. The result is stored under "distribution/target/products/".
+11. Last step: Execute `fix-javagent-paths.sh`. This will change the absolute paths to the java agents
+    in "eclipse.ini" to relative ones and repackage the eclipse archives.
+12. The final result is still stored under "distribution/target/products/".
+
+
 
 ## Starting Eclipse
 
