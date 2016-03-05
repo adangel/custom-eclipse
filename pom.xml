@@ -6,7 +6,7 @@
   <packaging>pom</packaging>
   
   <properties>
-    <tycho-version>0.22.0</tycho-version>
+    <tycho-version>0.24.0</tycho-version>
     <product-name>eclipse-mars-4.5.0-branded</product-name>
     <splash-subtitle>4.5 (Mars)</splash-subtitle>
   </properties>
