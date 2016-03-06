@@ -28,15 +28,15 @@ for i in *.zip; do
 
     (
         cd ${i:0:20}*
-        if [ -d Eclipse.app ]; then
+        if [ -d Contents ]; then
           sed -i.backup "{
                 s/-javaagent:.\+\/\(plugins\/com\.zeroturnaround\.eclipse\.optimizer\.plugin_[0-9]\+\.[0-9]\+\.[0-9]\+\/agent\/eclipse-optimizer-agent.jar\)/-javaagent:..\/..\/..\/\1/
                 s/-javaagent:.\+\/\(plugins\/lombok_[0-9]\+\.[0-9]\+\.[0-9]\+\/target\/lib\/lombok.jar\)/-javaagent:..\/..\/..\/\1/
-          }" Eclipse.app/Contents/MacOS/eclipse.ini
+          }" Contents/Eclipse/eclipse.ini
           sed -i.backup "{
               N
               s/-showsplash\norg.eclipse.platform//
-          }" Eclipse.app/Contents/MacOS/eclipse.ini
+          }" Contents/Eclipse/eclipse.ini
         else
           sed -i.backup "{
                 s/-javaagent:.\+\/\(plugins\/com\.zeroturnaround\.eclipse\.optimizer\.plugin_[0-9]\+\.[0-9]\+\.[0-9]\+\/agent\/eclipse-optimizer-agent.jar\)/-javaagent:\1/
