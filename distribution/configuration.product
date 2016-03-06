@@ -222,6 +222,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="feature-plugins" version="1.0.0.qualifier"/>
 
       <!-- Eclipse CPP -->
+      <!--
       <feature id="org.eclipse.epp.package.cpp.feature" installMode="root"/>
       <feature id="org.eclipse.cdt" installMode="root"/>
       <feature id="org.eclipse.cdt.autotools" installMode="root"/>
@@ -231,6 +232,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.cdt.launch.remote" installMode="root"/>
       <feature id="org.eclipse.cdt.msw" installMode="root"/>
       <feature id="org.eclipse.cdt.mylyn" installMode="root"/>
+      -->
 
       <!-- Mylyn -->
       <feature id="org.eclipse.mylyn_feature" installMode="root"/>
