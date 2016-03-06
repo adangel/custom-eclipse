@@ -445,14 +445,6 @@ mirror_p2 "http://community.polarion.com/projects/subversive/download/eclipse/5.
 mirror_p2 "http://www.pydev.org/updates/"
 
 #
-# Eclipse Fonts
-# See: https://code.google.com/p/eclipse-fonts/
-# Features:
-# FontsFeature
-#
-mirror_p2 "http://eclipse-fonts.googlecode.com/svn/trunk/FontsUpdate/"
-
-#
 # JSLint integration for the Eclipse IDE
 # See: https://github.com/weightpoint/jslint-eclipse
 # Features:
@@ -473,6 +465,15 @@ mirror_p2 "https://sourceforge.net/projects/dep4e/files/repository/"
 
 
 
+#
+# Eclipse Fonts
+# See: https://code.google.com/p/eclipse-fonts/
+# Features:
+# FontsFeature
+#
+#Note: the p2 repo doesn't seem to work, missing artifact?
+mirror_site "http://eclipse-fonts.googlecode.com/svn/trunk/FontsUpdate/"
+convert_site
 
 #
 # Lint4j ("Lint for Java")
