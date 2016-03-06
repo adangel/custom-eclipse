@@ -135,8 +135,294 @@ This Agreement is governed by the laws of the State of New York and the intellec
    </plugins>
 
    <features>
+      <!-- All the default features from jee -->
       <feature id="feature" version="1.0.0.qualifier"/>
+
+      <feature id="org.eclipse.platform" installMode="root"/>
+
+      <feature id="org.eclipse.datatools.common.doc.user" installMode="root"/>
+      <feature id="org.eclipse.datatools.connectivity.doc.user" installMode="root"/>
+      <feature id="org.eclipse.datatools.connectivity.feature" installMode="root"/>
+      <feature id="org.eclipse.datatools.doc.user" installMode="root"/>
+      <feature id="org.eclipse.datatools.enablement.feature" installMode="root"/>
+      <feature id="org.eclipse.datatools.intro" installMode="root"/>
+      <feature id="org.eclipse.datatools.modelbase.feature" installMode="root"/>
+      <feature id="org.eclipse.datatools.sqldevtools.feature" installMode="root"/>
+      <feature id="org.eclipse.datatools.sqltools.doc.user" installMode="root"/>
+
+      <feature id="org.eclipse.egit" installMode="root"/>
+      <feature id="org.eclipse.egit.mylyn" installMode="root"/>
+      <feature id="org.eclipse.jgit" installMode="root"/>
+
+      <feature id="org.eclipse.jdt" installMode="root"/>
+
+      <feature id="org.eclipse.jpt.common.eclipselink.feature" installMode="root"/>
+      <feature id="org.eclipse.jpt.common.feature" installMode="root"/>
+      <feature id="org.eclipse.jpt.dbws.eclipselink.feature" installMode="root"/>
+      <feature id="org.eclipse.jpt.jaxb.eclipselink.feature" installMode="root"/>
+      <feature id="org.eclipse.jpt.jaxb.feature" installMode="root"/>
+      <feature id="org.eclipse.jpt.jpa.eclipselink.feature" installMode="root"/>
+      <feature id="org.eclipse.jpt.jpa.feature" installMode="root"/>
+
+      <feature id="org.eclipse.jsf.feature" />
+
+      <feature id="org.eclipse.jst.common.fproj.enablement.jdt" installMode="root"/>
+      <feature id="org.eclipse.jst.enterprise_ui.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.server_adapters.ext.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.server_adapters.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.server_ui.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.webpageeditor.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.web_ui.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.ws.axis2tools.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.ws.cxf.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.ws.jaxws.dom.feature" installMode="root"/>
+      <feature id="org.eclipse.jst.ws.jaxws.feature" installMode="root"/>
+
+      <feature id="org.eclipse.m2e.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.logback.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.wtp.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.wtp.jaxrs.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.wtp.jpa.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.wtp.jsf.feature" installMode="root"/>
+
+      <feature id="org.eclipse.mylyn.bugzilla_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.context_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.ide_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.java_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.wikitext_feature" installMode="root"/>
+
+      <feature id="org.eclipse.pde" installMode="root"/>
+
+      <feature id="org.eclipse.recommenders.mylyn.rcp.feature" installMode="root"/>
+      <feature id="org.eclipse.recommenders.rcp.feature" installMode="root"/>
+
+      <feature id="org.eclipse.rse" installMode="root"/>
+      <feature id="org.eclipse.rse.useractions" installMode="root"/>
+
+      <feature id="org.eclipse.tm.terminal.feature" installMode="root"/>
+
+      <feature id="org.eclipse.wst.common.fproj" installMode="root"/>
+      <feature id="org.eclipse.wst.jsdt.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.server_adapters.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.web_ui.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.xml_ui.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.xsl.feature" installMode="root"/>
+
+
+
+
+
+
+
+
+
+      <!-- all the additional features -->
       <feature id="feature-plugins" version="1.0.0.qualifier"/>
+
+      <!-- Eclipse CPP -->
+      <feature id="org.eclipse.epp.package.cpp.feature" installMode="root"/>
+      <feature id="org.eclipse.cdt" installMode="root"/>
+      <feature id="org.eclipse.cdt.autotools" installMode="root"/>
+      <feature id="org.eclipse.cdt.build.crossgcc" installMode="root"/>
+      <feature id="org.eclipse.cdt.debug.standalone" installMode="root"/>
+      <feature id="org.eclipse.cdt.debug.ui.memory" installMode="root"/>
+      <feature id="org.eclipse.cdt.launch.remote" installMode="root"/>
+      <feature id="org.eclipse.cdt.msw" installMode="root"/>
+      <feature id="org.eclipse.cdt.mylyn" installMode="root"/>
+
+      <!-- Mylyn -->
+      <feature id="org.eclipse.mylyn_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.bugzilla_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.context_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.gerrit.feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.git" installMode="root"/>
+      <feature id="org.eclipse.mylyn.github.feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.hudson" installMode="root"/>
+      <feature id="org.eclipse.mylyn.ide_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.java_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.monitor" installMode="root"/>
+      <feature id="org.eclipse.mylyn.pde_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.reviews.feature" installMode="root"/>
+      <!-- <feature id="org.eclipse.mylyn.subclipse" installMode="root"/> -->
+      <feature id="org.eclipse.mylyn.tasks.ide" installMode="root"/>
+      <feature id="org.eclipse.mylyn.team_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.wikitext_feature" installMode="root"/>
+
+      <feature id="edu.umd.cs.findbugs.plugin.eclipse" installMode="root"/>
+
+      <feature id="net.sf.eclipsecs" installMode="root"/>
+
+      <feature id="net.sourceforge.pmd.eclipse" installMode="root"/>
+
+      <!-- <feature id="ch.acanda.eclipse.pmd.java.feature" installMode="root"/> -->
+
+      <feature id="com.mountainminds.eclemma.feature" installMode="root"/>
+
+      <feature id="org.eclipse.m2e.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.logback.feature" installMode="root"/>
+
+      <feature id="com.basistech.m2e.code.quality.checkstyle.feature" installMode="root"/>
+      <feature id="com.basistech.m2e.code.quality.findbugs.feature" installMode="root"/>
+      <feature id="com.basistech.m2e.code.quality.pmd.feature" installMode="root"/>
+
+      <feature id="org.sonatype.m2e.buildhelper.feature" installMode="root"/>
+      <feature id="org.sonatype.m2e.mavenarchiver.feature" installMode="root"/>
+      <feature id="org.sonatype.m2e.modello.feature" installMode="root"/>
+      <feature id="org.sonatype.m2e.plexus.annotations.feature" installMode="root"/>
+      <feature id="org.sonatype.tycho.m2e.feature" installMode="root"/>
+      <feature id="org.sonatype.m2e.antlr.feature" installMode="root"/>
+      <feature id="org.sonatype.m2e.sisu.feature" installMode="root"/>
+      <feature id="org.sonatype.m2e.egit.feature" installMode="root"/>
+      <feature id="org.sonatype.m2e.subversive.feature" installMode="root"/>
+      <!-- <feature id="org.sonatype.m2e.subclipse.feature" installMode="root"/> -->
+
+      <feature id="org.eclipse.m2e.wtp.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.wtp.jaxrs.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.wtp.jpa.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.wtp.jsf.feature" installMode="root"/>
+
+      <feature id="org.jboss.ide.eclipse.freemarker.feature" installMode="root"/>
+      <feature id="org.jboss.tools.common.jdt.feature" installMode="root"/>
+      <feature id="org.jboss.tools.jmx.feature" installMode="root"/>
+      <feature id="org.jboss.tools.jsf.feature" installMode="root"/>
+      <feature id="org.jboss.tools.jst.angularjs.feature" installMode="root"/>
+      <feature id="org.jboss.tools.jst.feature" installMode="root"/>
+      <feature id="org.jboss.tools.jst.js.feature" installMode="root"/>
+      <feature id="org.jboss.tools.jst.jsdt.feature" installMode="root"/>
+      <feature id="org.jboss.tools.livereload.feature" installMode="root"/>
+      <feature id="org.jboss.tools.maven.apt.feature" installMode="root"/>
+      <feature id="org.jboss.tools.maven.cdi.feature" installMode="root"/>
+      <feature id="org.jboss.tools.maven.feature" installMode="root"/>
+      <feature id="org.jboss.tools.maven.hibernate.feature" installMode="root"/>
+      <feature id="org.jboss.tools.maven.jbosspackaging.feature" installMode="root"/>
+      <feature id="org.jboss.tools.maven.jdt.feature" installMode="root"/>
+      <feature id="org.jboss.tools.maven.portlet.feature" installMode="root"/>
+      <feature id="org.jboss.tools.maven.sourcelookup.feature" installMode="root"/>
+      <feature id="org.jboss.tools.websockets.feature" installMode="root"/>
+      <feature id="org.jboss.tools.ws.feature" installMode="root"/>
+      <feature id="org.jboss.tools.ws.jaxrs.feature" installMode="root"/>
+      <feature id="org.jboss.tools.wtp.runtimes.tomcat.feature" installMode="root"/>
+      <feature id="org.jboss.tools.wtp.server.launchbar.feature" installMode="root"/>
+      <feature id="org.jboss.tools.xulrunner.feature" installMode="root"/>
+
+      <feature id="org.springframework.ide.eclipse.ajdt.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.aop.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.autowire.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.batch.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.boot.dash.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.data.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.integration.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.maven.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.mylyn.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.osgi.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.roo.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.security.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.webflow.feature" installMode="root"/>
+      <feature id="org.springsource.ide.eclipse.commons.quicksearch.feature" installMode="root"/>
+      <feature id="org.springsource.ide.eclipse.commons" installMode="root"/>
+      <feature id="org.springsource.ide.eclipse.dashboard" installMode="root"/>
+      <feature id="org.springsource.ide.eclipse.gradle.feature" installMode="root"/>
+      <feature id="org.springsource.sts.package" installMode="root"/>
+      <feature id="org.springsource.sts" installMode="root"/>
+
+
+      <feature id="org.codehaus.groovy24.feature" installMode="root"/>
+      <feature id="org.codehaus.groovy.compilerless.feature" installMode="root"/>
+      <feature id="org.codehaus.groovy.eclipse.feature" installMode="root"/>
+      <feature id="org.codehaus.groovy.jdt.patch" installMode="root"/>
+      <feature id="org.codehaus.groovy.m2eclipse.feature" installMode="root"/>
+
+      <feature id="org.maven.ide.eclipse.ajdt.feature" installMode="root"/>
+
+      <feature id="org.eclipse.ajdt" installMode="root"/>
+
+      <feature id="org.basepom.m2e.duplicate_finder.feature" installMode="root"/>
+      <feature id="org.basepom.m2e.property_helper.feature" installMode="root"/>
+
+      <feature id="com.ianbrandt.tools.m2e.mdp.feature" installMode="root"/>
+
+      <feature id="com.ifedorenko.m2e.mavendev.feature" installMode="root"/>
+      <feature id="com.ifedorenko.m2e.sourcelookup.feature" installMode="root"/>
+
+      <feature id="com.coderplus.m2e.jaxws" installMode="root"/>
+
+      <feature id="com.coderplus.m2e.remoteresourcesfeature" installMode="root"/>
+
+      <feature id="com.coderplus.m2e.yuicompressorfeature" installMode="root"/>
+
+      <feature id="org.bitstrings.eclipse.m2e.connectors.dependencypath.feature" installMode="root"/>
+      <feature id="org.bitstrings.eclipse.m2e.connectors.jaxb2.feature" installMode="root"/>
+      <feature id="org.bitstrings.eclipse.m2e.connectors.xmlbeans.feature" installMode="root"/>
+
+      <!-- antrun depends on older m2e 1.5.0 -->
+      <!-- <feature id="nl.mwensveen.m2e.extras.antrun.feature" installMode="root"/> -->
+
+      <feature id="net.sf.jautodoc.feature" installMode="root"/>
+
+      <feature id="com.zeroturnaround.eclipse.optimizer.feature" installMode="root"/>
+
+      <feature id="org.eclipse.egit" installMode="root"/>
+      <feature id="org.eclipse.egit.mylyn" installMode="root"/>
+      <feature id="org.eclipse.jgit" installMode="root"/>
+
+      <feature id="org.eclipse.recommenders.feature.rcp" installMode="root"/>
+      <feature id="org.eclipse.recommenders.mylyn.rcp.feature" installMode="root"/>
+      <feature id="org.eclipse.recommenders.rcp.feature" installMode="root"/>
+      <feature id="org.eclipse.recommenders.snipmatch.rcp.feature" installMode="root"/>
+
+      <feature id="org.testng.eclipse" installMode="root"/>
+
+      <feature id="org.apache.maven.doxia.ide.eclipse.feature" installMode="root"/>
+
+      <feature id="com.aptana.feature.studio" installMode="root"/>
+      <!-- <feature id="com.aptana.feature" installMode="root"/> -->
+      <!-- <feature id="com.aptana.ide.feature.libraries.subscription" installMode="root"/> -->
+      <!-- <feature id="com.aptana.php.feature" installMode="root"/> -->
+      <!-- <feature id="com.aptana.pydev.feature" installMode="root"/> -->
+      <!-- <feature id="org.radrails.rails" installMode="root"/> -->
+
+      <feature id="com.essiembre.eclipse.rbe" installMode="root"/>
+
+      <feature id="org.eclipse.team.svn" installMode="root"/>
+      <feature id="org.eclipse.team.svn.m2e" installMode="root"/>
+      <feature id="org.eclipse.team.svn.mylyn" installMode="root"/>
+      <feature id="org.eclipse.team.svn.resource.ignore.rules.jdt" installMode="root"/>
+      <feature id="org.eclipse.team.svn.revision.graph" installMode="root"/>
+
+      <feature id="org.polarion.eclipse.team.svn.connector" installMode="root"/>
+      <feature id="org.polarion.eclipse.team.svn.connector.svnkit18" installMode="root"/>
+      <!-- <feature id="org.polarion.eclipse.team.svn.connector.svnkit17" installMode="root"/> -->
+      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl18" installMode="root"/> -->
+      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl18.win32" installMode="root"/> -->
+      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl18.win64" installMode="root"/> -->
+      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl17" installMode="root"/> -->
+      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl17.win32" installMode="root"/> -->
+      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl17.win64" installMode="root"/> -->
+
+      <!-- <feature id="org.python.pydev.feature" installMode="root"/> -->
+      <!-- <feature id="org.python.pydev.mylyn.feature" installMode="root"/> -->
+
+      <feature id="FontsFeature" installMode="root"/>
+
+      <feature id="se.weightpoint.jslint.feature" installMode="root"/>
+
+      <feature id="com.jutils.lint4j.core" installMode="root"/>
+
+      <feature id="JDepend4Eclipse" installMode="root"/>
+
+      <!-- FreeMem jar doesn't have an osgi MANIFEST.MF file -->
+      <!-- <feature id="biz.junginger.FreeMemFeature" installMode="root"/> -->
+      <feature id="biz.junginger.ExploreFS_Feature" installMode="root"/>
+
+      <feature id="jd.edi.eclipse.feature" installMode="root"/>
+      <feature id="realignment.jd.ide.eclipse.feature" installMode="root"/>
+
+      <feature id="com.tetrade.eclipse.plugins.easyshell.feature" installMode="root"/>
+
+      <feature id="cucumber.eclipse.feature" installMode="root"/>
    </features>
 
    <configurations>
