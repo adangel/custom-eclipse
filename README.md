@@ -31,8 +31,9 @@ Prepackaged eclipse archives can be downloaded here:
 9.  Have a look at the top-level pom.xml file. You can specify for which platforms you want to create an
     own eclipse distribution. See the plugin "target-platform-configuration" and the environments configuration.
 10. Execute `mvn clean package`. The result is stored under "distribution/target/products/".
-11. Last step: Execute `fix-javagent-paths.sh`. This will change the absolute paths to the java agents
-    in "eclipse.ini" to relative ones and repackage the eclipse archives.
+11. Last step: Execute `fix-eclipse-ini.sh`. This will change the absolute paths to the java agents
+    in "eclipse.ini" to relative ones and repackage the eclipse archives and also removes the wrong
+    (default) splash screen.
 12. The final result is still stored under "distribution/target/products/".
 
 
