@@ -7,8 +7,8 @@
   
   <properties>
     <tycho-version>0.24.0</tycho-version>
-    <product-name>eclipse-mars-4.5.0-branded</product-name>
-    <splash-subtitle>4.5 (Mars)</splash-subtitle>
+    <product-name>eclipse-mars-4.5.2-custom</product-name>
+    <splash-subtitle>4.5.2 (Mars)</splash-subtitle>
   </properties>
 
   <build>

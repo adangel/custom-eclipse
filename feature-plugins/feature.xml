@@ -6,7 +6,7 @@
    </description>
 
    <copyright>
-      (c) Copyright 2015 https://github.com/adangel/custom-eclipse
+      (c) Copyright 2016 https://github.com/adangel/custom-eclipse
    </copyright>
 
    <license url="http://www.eclipse.org/org/documents/epl-v10.html">
@@ -103,89 +103,49 @@ This Agreement is governed by the laws of the State of New York and the intellec
     <plugin id="lombok" download-size="0" install-size="0" version="0.0.0" unpack="true"/>
 
     <requires>
-        <!-- doesn't provide a proper bundle symbolic name - META-INF/MANIFEST.MF is missing
-        <import plugin="org.adarsh.jutils"/>
-        -->
+
+        <!-- Eclipse CPP -->
+        <import feature="org.eclipse.epp.package.cpp.feature"/>
+        <import feature="org.eclipse.cdt"/>
+        <import feature="org.eclipse.cdt.autotools"/>
+        <import feature="org.eclipse.cdt.build.crossgcc"/>
+        <import feature="org.eclipse.cdt.debug.standalone"/>
+        <import feature="org.eclipse.cdt.debug.ui.memory"/>
+        <import feature="org.eclipse.cdt.launch.remote"/>
+        <import feature="org.eclipse.cdt.msw"/>
+        <import feature="org.eclipse.cdt.mylyn"/>
+
+        <!-- Mylyn -->
+        <import feature="org.eclipse.mylyn_feature"/>
+        <import feature="org.eclipse.mylyn.bugzilla_feature"/>
+        <import feature="org.eclipse.mylyn.context_feature"/>
+        <import feature="org.eclipse.mylyn.gerrit.feature"/>
+        <import feature="org.eclipse.mylyn.git"/>
+        <import feature="org.eclipse.mylyn.github.feature"/>
+        <import feature="org.eclipse.mylyn.hudson"/>
+        <import feature="org.eclipse.mylyn.ide_feature"/>
+        <import feature="org.eclipse.mylyn.java_feature"/>
+        <import feature="org.eclipse.mylyn.monitor"/>
+        <import feature="org.eclipse.mylyn.pde_feature"/>
+        <import feature="org.eclipse.mylyn.reviews.feature"/>
+        <!-- <import feature="org.eclipse.mylyn.subclipse"/> -->
+        <import feature="org.eclipse.mylyn.tasks.ide"/>
+        <import feature="org.eclipse.mylyn.team_feature"/>
+        <import feature="org.eclipse.mylyn.wikitext_feature"/>
+
+        <import feature="edu.umd.cs.findbugs.plugin.eclipse"/>
 
         <import feature="net.sf.eclipsecs"/>
-        <import feature="org.springframework.ide.eclipse.feature"/>
-        <import feature="org.springframework.ide.eclipse.autowire.feature"/>
-        <import feature="org.springframework.ide.eclipse.aop.feature"/>
-        <import feature="org.springframework.ide.eclipse.batch.feature"/>
-        <import feature="org.springframework.ide.eclipse.integration.feature"/>
-        <import feature="org.springframework.ide.eclipse.maven.feature"/>
-        <import feature="org.springframework.ide.eclipse.data.feature"/>
-        <import feature="org.codehaus.groovy20.feature"/>
-        <import feature="org.codehaus.groovy.eclipse.feature"/>
-        <import feature="org.codehaus.groovy.jdt.patch"/>
-        <import feature="org.springframework.ide.eclipse.ajdt.feature"/>
-        <import feature="org.springframework.ide.eclipse.mylyn.feature"/>
-        <import feature="org.springframework.ide.eclipse.ajdt.feature.source"/>
-        <import feature="org.springframework.ide.eclipse.aop.feature.source"/>
-        <import feature="org.springframework.ide.eclipse.autowire.feature.source"/>
-        <import feature="org.springframework.ide.eclipse.batch.feature.source"/>
-        <import feature="org.springframework.ide.eclipse.feature.source"/>
-        <import feature="org.springframework.ide.eclipse.integration.feature.source"/>
-        <import feature="org.springframework.ide.eclipse.maven.feature.source"/>
-        <import feature="org.springframework.ide.eclipse.security.feature.source"/>
-        <import feature="org.springframework.ide.eclipse.data.feature.source"/>
-        <import feature="edu.umd.cs.findbugs.plugin.eclipse"/>
-        <import feature="com.mountainminds.eclemma.feature"/>
+
         <import feature="net.sourceforge.pmd.eclipse"/>
 
-        <import feature="org.eclipse.egit"/>
-        <import feature="org.eclipse.egit.mylyn"/>
-        <import feature="org.eclipse.jgit"/>
-        <import feature="org.eclipse.jgit.pgm"/>
+        <!-- <import feature="ch.acanda.eclipse.pmd.java.feature"/> -->
 
-        <!-- subversive -->
-        <import feature="org.eclipse.team.svn"/>
-        <import feature="org.eclipse.team.svn.revision.graph"/>
-        <import feature="org.eclipse.team.svn.mylyn"/>
-        <import feature="org.eclipse.team.svn.resource.ignore.rules.jdt"/>
-        <import feature="org.polarion.eclipse.team.svn.connector"/>
-        <!--
-        <import feature="org.polarion.eclipse.team.svn.connector.javahl18"/>
-        <import feature="org.polarion.eclipse.team.svn.connector.javahl18.win64"/>
-        -->
-        <import feature="org.polarion.eclipse.team.svn.connector.svnkit18"/>
+        <import feature="com.mountainminds.eclemma.feature"/>
 
-        <!-- Note: Instead of subclipse, subversive is installed -->
-        <!--
-        <import feature="org.tigris.subversion.subclipse"/>
-        <import feature="com.collabnet.subversion.merge.feature"/>
-        <import feature="org.tigris.subversion.subclipse.mylyn"/>
-        <import feature="org.tigris.subversion.clientadapter.feature"/>
-        -->
-        <!-- don't install javahl - use svnkit instead
-        <import feature="org.tigris.subversion.clientadapter.javahl.feature"/>
-        -->
-        <!--
-        <import feature="org.tigris.subversion.subclipse.graph.feature"/>
-        <import feature="net.java.dev.jna"/>
-        <import feature="org.tigris.subversion.clientadapter.svnkit.feature"/>
-        -->
-        <!-- Due to http://issues.tmatesoft.com/issue/SVNKIT-555 an older version is required -->
-<!--
-        <import feature="org.tmatesoft.svnkit" version="1.8.5.r10237_v20140319_1934" match="perfect"/>
--->
+        <import feature="org.eclipse.m2e.feature"/>
+        <import feature="org.eclipse.m2e.logback.feature"/>
 
-        <import feature="com.aptana.feature.studio"/>
-
-        <import feature="net.sf.jautodoc.feature"/>
-        <import feature="biz.junginger.ExploreFS_Feature"/>
-        <import feature="jsonedit-feature"/>
-        <import feature="net.sf.jdtdecompiler.feature"/>
-        <import feature="com.jutils.lint4j.core"/>
-        <import feature="JDepend4Eclipse"/>
-
-        <import feature="org.jboss.tools.common.jdt.feature"/>
-        <import feature="org.jboss.tools.jmx.feature"/>
-        <import feature="org.hibernate.eclipse.feature"/>
-        <import feature="org.jboss.tools.maven.hibernate.feature"/>
-        <import feature="org.jboss.ide.eclipse.freemarker.feature"/>
-
-        <import feature="org.maven.ide.eclipse.ajdt.feature"/>
         <import feature="com.basistech.m2e.code.quality.checkstyle.feature"/>
         <import feature="com.basistech.m2e.code.quality.findbugs.feature"/>
         <import feature="com.basistech.m2e.code.quality.pmd.feature"/>
@@ -194,48 +154,158 @@ This Agreement is governed by the laws of the State of New York and the intellec
         <import feature="org.sonatype.m2e.mavenarchiver.feature"/>
         <import feature="org.sonatype.m2e.modello.feature"/>
         <import feature="org.sonatype.m2e.plexus.annotations.feature"/>
-
-        <import feature="com.tetrade.eclipse.plugins.easyshell.feature"/>
-
-        <import feature="org.jboss.tools.m2e.jdt.feature"/>
         <import feature="org.sonatype.tycho.m2e.feature"/>
+        <import feature="org.sonatype.m2e.antlr.feature"/>
+        <import feature="org.sonatype.m2e.sisu.feature"/>
+        <import feature="org.sonatype.m2e.egit.feature"/>
+        <import feature="org.sonatype.m2e.subversive.feature"/>
+        <!-- <import feature="org.sonatype.m2e.subclipse.feature"/> -->
 
+        <import feature="org.eclipse.m2e.wtp.feature"/>
+        <import feature="org.eclipse.m2e.wtp.jaxrs.feature"/>
+        <import feature="org.eclipse.m2e.wtp.jpa.feature"/>
+        <import feature="org.eclipse.m2e.wtp.jsf.feature"/>
+
+        <import feature="org.jboss.ide.eclipse.freemarker.feature"/>
+        <import feature="org.jboss.tools.common.jdt.feature"/>
+        <import feature="org.jboss.tools.jmx.feature"/>
+        <import feature="org.jboss.tools.jsf.feature"/>
+        <import feature="org.jboss.tools.jst.angularjs.feature"/>
+        <import feature="org.jboss.tools.jst.feature"/>
+        <import feature="org.jboss.tools.jst.js.feature"/>
+        <import feature="org.jboss.tools.jst.jsdt.feature"/>
+        <import feature="org.jboss.tools.livereload.feature"/>
+        <import feature="org.jboss.tools.maven.apt.feature"/>
+        <import feature="org.jboss.tools.maven.cdi.feature"/>
+        <import feature="org.jboss.tools.maven.feature"/>
+        <import feature="org.jboss.tools.maven.hibernate.feature"/>
+        <import feature="org.jboss.tools.maven.jbosspackaging.feature"/>
+        <import feature="org.jboss.tools.maven.jdt.feature"/>
+        <import feature="org.jboss.tools.maven.portlet.feature"/>
+        <import feature="org.jboss.tools.maven.sourcelookup.feature"/>
+        <import feature="org.jboss.tools.websockets.feature"/>
+        <import feature="org.jboss.tools.ws.feature"/>
+        <import feature="org.jboss.tools.ws.jaxrs.feature"/>
+        <import feature="org.jboss.tools.wtp.runtimes.tomcat.feature"/>
+        <import feature="org.jboss.tools.wtp.server.launchbar.feature"/>
+        <import feature="org.jboss.tools.xulrunner.feature"/>
+
+        <import feature="org.springframework.ide.eclipse.ajdt.feature"/>
+        <import feature="org.springframework.ide.eclipse.aop.feature"/>
+        <import feature="org.springframework.ide.eclipse.autowire.feature"/>
+        <import feature="org.springframework.ide.eclipse.batch.feature"/>
+        <import feature="org.springframework.ide.eclipse.boot.dash.feature"/>
+        <import feature="org.springframework.ide.eclipse.data.feature"/>
+        <import feature="org.springframework.ide.eclipse.feature"/>
+        <import feature="org.springframework.ide.eclipse.integration.feature"/>
+        <import feature="org.springframework.ide.eclipse.maven.feature"/>
+        <import feature="org.springframework.ide.eclipse.mylyn.feature"/>
+        <import feature="org.springframework.ide.eclipse.osgi.feature"/>
+        <import feature="org.springframework.ide.eclipse.roo.feature"/>
+        <import feature="org.springframework.ide.eclipse.security.feature"/>
+        <import feature="org.springframework.ide.eclipse.webflow.feature"/>
+        <import feature="org.springsource.ide.eclipse.commons.quicksearch.feature"/>
+        <import feature="org.springsource.ide.eclipse.commons"/>
+        <import feature="org.springsource.ide.eclipse.dashboard"/>
+        <import feature="org.springsource.ide.eclipse.gradle.feature"/>
+        <import feature="org.springsource.sts.package"/>
+        <import feature="org.springsource.sts"/>
+
+
+        <import feature="org.codehaus.groovy24.feature"/>
+        <import feature="org.codehaus.groovy.compilerless.feature"/>
+        <import feature="org.codehaus.groovy.eclipse.feature"/>
+        <import feature="org.codehaus.groovy.jdt.patch"/>
+        <import feature="org.codehaus.groovy.m2eclipse.feature"/>
+
+        <import feature="org.maven.ide.eclipse.ajdt.feature"/>
+
+        <import feature="org.eclipse.ajdt"/>
+
+        <import feature="org.basepom.m2e.duplicate_finder.feature"/>
+        <import feature="org.basepom.m2e.property_helper.feature"/>
+
+        <import feature="com.ianbrandt.tools.m2e.mdp.feature"/>
+
+        <import feature="com.ifedorenko.m2e.mavendev.feature"/>
+        <import feature="com.ifedorenko.m2e.sourcelookup.feature"/>
+
+        <import feature="com.coderplus.m2e.jaxws"/>
+
+        <import feature="com.coderplus.m2e.remoteresourcesfeature"/>
+
+        <import feature="com.coderplus.m2e.yuicompressorfeature"/>
+
+        <import feature="org.bitstrings.eclipse.m2e.connectors.dependencypath.feature"/>
         <import feature="org.bitstrings.eclipse.m2e.connectors.jaxb2.feature"/>
         <import feature="org.bitstrings.eclipse.m2e.connectors.xmlbeans.feature"/>
-        <import feature="org.apache.maven.doxia.ide.eclipse.feature"/>
-        <import feature="markdown.editor.feature"/>
 
-        <import feature="org.eclipse.mat.feature"/>
-        <import feature="org.eclipse.mat.chart.feature"/>
+        <!-- antrun depends on older m2e 1.5.0 -->
+        <!-- <import feature="nl.mwensveen.m2e.extras.antrun.feature"/> -->
 
-        <import feature="org.eclipse.tcf.te.terminals.feature"/>
-
-        <import feature="org.testng.eclipse"/>
-
-        <import feature="com.essiembre.eclipse.rbe"/>
-
-        <import feature="FontsFeature"/>
-
-        <import feature="cucumber.eclipse.feature"/>
-
-        <import feature="se.weightpoint.jslint.feature"/>
-
-        <import feature="de.joe.m2e.apt.feature"/>
+        <import feature="net.sf.jautodoc.feature"/>
 
         <import feature="com.zeroturnaround.eclipse.optimizer.feature"/>
 
-<!--
-        <import feature="com.cenqua.clover"/>
-        <import feature="org.eclipse.jenkins"/>
-        <import feature="nl.mwensveen.m2e.extras.antrun.feature"/>
-        <import feature="com.atlassian.connector.eclipse"/>
-        <import feature="com.soyatec.euml2.studio"/>
--->
+        <import feature="org.eclipse.egit"/>
+        <import feature="org.eclipse.egit.mylyn"/>
+        <import feature="org.eclipse.jgit"/>
 
-<!--
-        <import feature="org.python.pydev.feature"/>
-        <import feature="com.googlecode.grinderstone.feature"/>
--->
+        <import feature="org.eclipse.recommenders.feature.rcp"/>
+        <import feature="org.eclipse.recommenders.mylyn.rcp.feature"/>
+        <import feature="org.eclipse.recommenders.rcp.feature"/>
+        <import feature="org.eclipse.recommenders.snipmatch.rcp.feature"/>
+
+        <import feature="org.testng.eclipse"/>
+
+        <import feature="org.apache.maven.doxia.ide.eclipse.feature"/>
+
+        <import feature="com.aptana.feature.studio"/>
+        <!-- <import feature="com.aptana.feature"/> -->
+        <!-- <import feature="com.aptana.ide.feature.libraries.subscription"/> -->
+        <!-- <import feature="com.aptana.php.feature"/> -->
+        <!-- <import feature="com.aptana.pydev.feature"/> -->
+        <!-- <import feature="org.radrails.rails"/> -->
+
+        <import feature="com.essiembre.eclipse.rbe"/>
+
+        <import feature="org.eclipse.team.svn"/>
+        <import feature="org.eclipse.team.svn.m2e"/>
+        <import feature="org.eclipse.team.svn.mylyn"/>
+        <import feature="org.eclipse.team.svn.resource.ignore.rules.jdt"/>
+        <import feature="org.eclipse.team.svn.revision.graph"/>
+
+        <import feature="org.polarion.eclipse.team.svn.connector"/>
+        <import feature="org.polarion.eclipse.team.svn.connector.svnkit18"/>
+        <!-- <import feature="org.polarion.eclipse.team.svn.connector.svnkit17"/> -->
+        <!-- <import feature="org.polarion.eclipse.team.svn.connector.javahl18"/> -->
+        <!-- <import feature="org.polarion.eclipse.team.svn.connector.javahl18.win32"/> -->
+        <!-- <import feature="org.polarion.eclipse.team.svn.connector.javahl18.win64"/> -->
+        <!-- <import feature="org.polarion.eclipse.team.svn.connector.javahl17"/> -->
+        <!-- <import feature="org.polarion.eclipse.team.svn.connector.javahl17.win32"/> -->
+        <!-- <import feature="org.polarion.eclipse.team.svn.connector.javahl17.win64"/> -->
+
+        <!-- <import feature="org.python.pydev.feature"/> -->
+        <!-- <import feature="org.python.pydev.mylyn.feature"/> -->
+
+        <import feature="FontsFeature"/>
+
+        <import feature="se.weightpoint.jslint.feature"/>
+
+        <import feature="com.jutils.lint4j.core"/>
+
+        <import feature="JDepend4Eclipse"/>
+
+        <!-- FreeMem jar doesn't have an osgi MANIFEST.MF file -->
+        <!-- <import feature="biz.junginger.FreeMemFeature"/> -->
+        <import feature="biz.junginger.ExploreFS_Feature"/>
+
+        <import feature="jd.edi.eclipse.feature"/>
+        <import feature="realignment.jd.ide.eclipse.feature"/>
+
+        <import feature="com.tetrade.eclipse.plugins.easyshell.feature"/>
+
+        <import feature="cucumber.eclipse.feature"/>
     </requires>
 
 </feature>
