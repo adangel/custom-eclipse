@@ -44,8 +44,8 @@
                                 <drawText>
                                     <text>${splash-subtitle}</text>
                                     <textColor>#000000</textColor>
-                                    <fontSize>48</fontSize>
-                                    <position>center,center</position>
+                                    <fontSize>24</fontSize>
+                                    <position>center,215</position>
                                 </drawText>
                             </draw>
                         </canvas>
