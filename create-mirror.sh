@@ -460,7 +460,13 @@ mirror_p2 "http://eclipse-fonts.googlecode.com/svn/trunk/FontsUpdate/"
 #
 mirror_p2 "http://weightpoint.github.io/jslint-eclipse/updates/"
 
-
+#
+# DocBook Editing and Processing for Eclipse (DEP4E)
+# See: http://dep4e.sourceforge.net/
+# Features:
+# net.sourceforge.dep4e.feature
+#
+mirror_p2 "https://sourceforge.net/projects/dep4e/files/repository/"
 
 
 
