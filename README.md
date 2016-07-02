@@ -71,5 +71,7 @@ Highlights are:
 * <http://stackoverflow.com/questions/8583878/rename-zip-files-created-by-tycho-p2-director-plugin>
 * <http://wiki.eclipse.org/Simultaneous_Release>
 * <http://wiki.eclipse.org/Eclipse_Project_Update_Sites>
+* <https://wiki.eclipse.org/Eclipse/Installation>
+
 
 
