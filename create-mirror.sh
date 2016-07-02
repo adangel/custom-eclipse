@@ -15,7 +15,7 @@
 # See: http://wiki.eclipse.org/Simultaneous_Release
 # Features see http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages
 #
-mirror_p2 "http://download.eclipse.org/releases/mars/"
+mirror_p2 "http://download.eclipse.org/releases/neon/"
 
 #
 # Mylyn is the task and application lifecycle management (ALM) framework for Eclipse.
@@ -180,7 +180,7 @@ mirror_p2 "http://download.eclipse.org/m2e-wtp/releases/"
 # org.jboss.tools.wtp.server.launchbar.feature
 # org.jboss.tools.xulrunner.feature
 #
-mirror_p2 "http://download.jboss.org/jbosstools/updates/stable/mars/"
+mirror_p2 "http://download.jboss.org/jbosstools/neon/stable/updates/"
 
 
 #
@@ -209,7 +209,7 @@ mirror_p2 "http://download.jboss.org/jbosstools/updates/stable/mars/"
 # org.springsource.sts.package
 # org.springsource.sts
 #
-mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.5/"
+mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.6/"
 
 #
 # Groovy/Grails Tool Suite (GGTS) for Eclipse
@@ -417,7 +417,7 @@ mirror_p2 "https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclips
 # org.eclipse.team.svn.revision.graph
 # org.eclipse.team.svn
 #
-mirror_p2 "http://download.eclipse.org/technology/subversive/3.0/update-site/"
+mirror_p2 "http://download.eclipse.org/technology/subversive/4.0/update-site/"
 
 #
 # Download Subversive Subversion Team Provider for Eclipse - the connectors
@@ -433,7 +433,7 @@ mirror_p2 "http://download.eclipse.org/technology/subversive/3.0/update-site/"
 # org.polarion.eclipse.team.svn.connector.svnkit18
 # org.polarion.eclipse.team.svn.connector
 #
-mirror_p2 "http://community.polarion.com/projects/subversive/download/eclipse/5.0/mars-site/"
+mirror_p2 "http://community.polarion.com/projects/subversive/download/eclipse/6.0/update-site/"
 
 #
 # Python IDE - PyDev
