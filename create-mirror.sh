@@ -162,7 +162,6 @@ mirror_p2 "http://download.eclipse.org/m2e-wtp/releases/"
 # org.jboss.tools.jsf.feature
 # org.jboss.tools.jst.angularjs.feature
 # org.jboss.tools.jst.feature
-# org.jboss.tools.jst.js.feature
 # org.jboss.tools.jst.jsdt.feature
 # org.jboss.tools.livereload.feature
 # org.jboss.tools.maven.apt.feature
@@ -461,19 +460,17 @@ mirror_p2 "http://weightpoint.github.io/jslint-eclipse/updates/"
 mirror_p2 "https://sourceforge.net/projects/dep4e/files/repository/"
 
 
-
-
-
-
 #
-# Eclipse Fonts
-# See: https://code.google.com/p/eclipse-fonts/
+# Fontsize
+# See: https://marketplace.eclipse.org/content/fontsize
 # Features:
-# FontsFeature
+# pl.com.tt.feature.fontsize
 #
-#Note: the p2 repo doesn't seem to work, missing artifact?
-mirror_site "http://eclipse-fonts.googlecode.com/svn/trunk/FontsUpdate/"
-convert_site
+mirror_p2 "http://plm.tt.com.pl/eclipse-plugins/updateSite/"
+
+
+
+
 
 #
 # Lint4j ("Lint for Java")
@@ -515,15 +512,6 @@ convert_site
 # realignment.jd.ide.eclipse.feature
 #
 mirror_site "http://mchr3k-eclipse.appspot.com/"
-convert_site
-
-#
-# EasyShell Eclipse Plugin
-# See: http://pluginbox.sourceforge.net/
-# Features:
-# com.tetrade.eclipse.plugins.easyshell.feature
-#
-mirror_site "http://pluginbox.sourceforge.net/"
 convert_site
 
 #

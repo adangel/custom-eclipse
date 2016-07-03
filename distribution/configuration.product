@@ -291,7 +291,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.jboss.tools.jsf.feature" installMode="root"/>
       <feature id="org.jboss.tools.jst.angularjs.feature" installMode="root"/>
       <feature id="org.jboss.tools.jst.feature" installMode="root"/>
-      <feature id="org.jboss.tools.jst.js.feature" installMode="root"/>
       <feature id="org.jboss.tools.jst.jsdt.feature" installMode="root"/>
       <feature id="org.jboss.tools.livereload.feature" installMode="root"/>
       <feature id="org.jboss.tools.maven.apt.feature" installMode="root"/>
@@ -331,11 +330,11 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.springsource.sts" installMode="root"/>
 
 
-      <feature id="org.codehaus.groovy24.feature" installMode="root"/>
-      <feature id="org.codehaus.groovy.compilerless.feature" installMode="root"/>
-      <feature id="org.codehaus.groovy.eclipse.feature" installMode="root"/>
-      <feature id="org.codehaus.groovy.jdt.patch" installMode="root"/>
-      <feature id="org.codehaus.groovy.m2eclipse.feature" installMode="root"/>
+      <!-- <feature id="org.codehaus.groovy24.feature" installMode="root"/> -->
+      <!-- <feature id="org.codehaus.groovy.compilerless.feature" installMode="root"/> -->
+      <!-- <feature id="org.codehaus.groovy.eclipse.feature" installMode="root"/> -->
+      <!-- <feature id="org.codehaus.groovy.jdt.patch" installMode="root"/> -->
+      <!-- <feature id="org.codehaus.groovy.m2eclipse.feature" installMode="root"/> -->
 
       <feature id="org.maven.ide.eclipse.ajdt.feature" installMode="root"/>
 
@@ -407,7 +406,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <!-- <feature id="org.python.pydev.feature" installMode="root"/> -->
       <!-- <feature id="org.python.pydev.mylyn.feature" installMode="root"/> -->
 
-      <feature id="FontsFeature" installMode="root"/>
+      <feature id="pl.com.tt.feature.fontsize" installMode="root"/>
 
       <feature id="se.weightpoint.jslint.feature" installMode="root"/>
 
@@ -423,8 +422,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
       <feature id="jd.edi.eclipse.feature" installMode="root"/>
       <feature id="realignment.jd.ide.eclipse.feature" installMode="root"/>
-
-      <feature id="com.tetrade.eclipse.plugins.easyshell.feature" installMode="root"/>
 
       <feature id="cucumber.eclipse.feature" installMode="root"/>
    </features>
