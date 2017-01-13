@@ -114,7 +114,7 @@ mirror_p2 "http://m2e-code-quality.github.io/m2e-code-quality/site/latest/"
 mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201405280027/"
 
 # org.sonatype.m2e.mavenarchiver.feature
-mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.17.0/N/LATEST/"
+mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.17.2/N/LATEST/"
 
 # org.sonatype.m2e.modello.feature
 mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-modello/0.16.0/N/LATEST/"
@@ -132,7 +132,7 @@ mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-antlr/0
 mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-sisu/0.15.0/N/LATEST/"
 
 # org.sonatype.m2e.egit.feature
-mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-egit/0.14.0/N/LATEST/"
+mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-egit/0.15.0/N/LATEST/"
 
 # org.sonatype.m2e.subversive.feature
 mirror_p2 "http://repo.maven.apache.org/maven2/.m2e/connectors/m2eclipse-subversive/0.13.0/N/0.13.0.201302121311/"
@@ -238,7 +238,7 @@ mirror_p2 "http://dist.springsource.org/release/AJDT/configurator-v2/"
 # Features:
 # org.eclipse.ajdt
 #
-mirror_p2 "http://download.eclipse.org/tools/ajdt/mars/update/"
+mirror_p2 "http://download.eclipse.org/tools/ajdt/46/dev/update/"
 
 #
 # basepom: All the base POMs in the world.
@@ -408,6 +408,7 @@ mirror_p2 "https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclips
 #
 # Eclipse Subversive - Subversion (SVN) Team Provider
 # See: http://eclipse.org/subversive/
+# See: http://marketplace.eclipse.org/content/subversive-svn-team-provider
 # Features:
 # org.eclipse.team.svn.m2e
 # org.eclipse.team.svn.mylyn

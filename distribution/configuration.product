@@ -135,9 +135,13 @@ This Agreement is governed by the laws of the State of New York and the intellec
    </plugins>
 
    <features>
-      <!-- All the default features from jee -->
       <feature id="feature" version="1.0.0.qualifier"/>
 
+      <!-- All the default features from jee,
+           see http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.jee.product/epp.product
+       -->
+      <feature id="org.eclipse.epp.package.jee.feature" installMode="root"/>
+      <feature id="org.eclipse.epp.package.common.feature" installMode="root"/>
       <feature id="org.eclipse.platform" installMode="root"/>
 
       <feature id="org.eclipse.datatools.common.doc.user" installMode="root"/>
@@ -152,7 +156,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
       <feature id="org.eclipse.egit" installMode="root"/>
       <feature id="org.eclipse.egit.mylyn" installMode="root"/>
-      <feature id="org.eclipse.jgit" installMode="root"/>
+      <feature id="org.eclipse.egit.gitflow.feature" installMode="root"/>
 
       <feature id="org.eclipse.jdt" installMode="root"/>
 
@@ -198,13 +202,16 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.recommenders.mylyn.rcp.feature" installMode="root"/>
       <feature id="org.eclipse.recommenders.rcp.feature" installMode="root"/>
 
+      <feature id="org.eclipse.cft.server.core.feature" installMode="root"/>
+      <feature id="org.eclipse.cft.server.ui.feature" installMode="root"/>
+
       <feature id="org.eclipse.rse" installMode="root"/>
       <feature id="org.eclipse.rse.useractions" installMode="root"/>
-
       <feature id="org.eclipse.tm.terminal.feature" installMode="root"/>
 
       <feature id="org.eclipse.wst.common.fproj" installMode="root"/>
       <feature id="org.eclipse.wst.jsdt.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.jsdt.chromium.debug.feature" installMode="root"/>
       <feature id="org.eclipse.wst.server_adapters.feature" installMode="root"/>
       <feature id="org.eclipse.wst.web_ui.feature" installMode="root"/>
       <feature id="org.eclipse.wst.xml_ui.feature" installMode="root"/>
@@ -221,8 +228,9 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <!-- all the additional features -->
       <feature id="feature-plugins" version="1.0.0.qualifier"/>
 
-      <!-- Eclipse CPP -->
-      <!--
+      <!-- Eclipse CPP
+           http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.cpp.product/epp.product
+      -->
       <feature id="org.eclipse.epp.package.cpp.feature" installMode="root"/>
       <feature id="org.eclipse.cdt" installMode="root"/>
       <feature id="org.eclipse.cdt.autotools" installMode="root"/>
@@ -230,14 +238,43 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.cdt.debug.standalone" installMode="root"/>
       <feature id="org.eclipse.cdt.debug.ui.memory" installMode="root"/>
       <feature id="org.eclipse.cdt.launch.remote" installMode="root"/>
-      <feature id="org.eclipse.cdt.msw" installMode="root"/>
       <feature id="org.eclipse.cdt.mylyn" installMode="root"/>
-      -->
 
-      <!-- Mylyn -->
+      <feature id="org.eclipse.linuxtools.cdt.libhover.feature" installMode="root"/>
+      <feature id="org.eclipse.linuxtools.cdt.libhover.devhelp.feature" installMode="root"/>
+      <feature id="org.eclipse.linuxtools.changelog.c" installMode="root"/>
+      <feature id="org.eclipse.linuxtools.gcov" installMode="root"/>
+      <feature id="org.eclipse.linuxtools.gprof.feature" installMode="root"/>
+      <feature id="org.eclipse.linuxtools.rpm" installMode="root"/>
+      <feature id="org.eclipse.linuxtools.valgrind" installMode="root"/>
+
+      <feature id="org.eclipse.tracecompass.gdbtrace" installMode="root"/>
+      <feature id="org.eclipse.tracecompass.lttng2.control" installMode="root"/>
+      <feature id="org.eclipse.tracecompass.lttng2.kernel" installMode="root"/>
+      <feature id="org.eclipse.tracecompass.lttng2.ust" installMode="root"/>
+
+      <!-- Eclipse JavaScript
+           http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.javascript.product/epp.product
+      -->
+      <feature id="org.eclipse.epp.package.javascript.feature" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.user.ui" installMode="root"/>
       <feature id="org.eclipse.mylyn_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.bugzilla_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.context_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.ide_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.wikitext_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.github.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.web_ui.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.xml_ui.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.json_ui.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.jsdt.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.jsdt.chromium.debug.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.server_ui.feature" installMode="root"/>
+      <feature id="org.eclipse.wst.server_adapters.feature" installMode="root"/>
+      <feature id="org.eclipse.thym.feature" installMode="root"/>
+      <feature id="org.eclipse.tm.terminal.feature" installMode="root"/>
+      <feature id="org.eclipse.rse" installMode="root"/>
+
 
       <!-- Eclipse IDE for PHP Developers
            http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.php.product/epp.product
@@ -251,19 +288,34 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.wst.xml_ui.feature" installMode="root"/>
       <!-- -->
 
+
+      <!-- Mylyn -->
+      <feature id="org.eclipse.mylyn.bugzilla_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.builds" installMode="root"/>
+      <feature id="org.eclipse.mylyn.commons" installMode="root"/>
+      <feature id="org.eclipse.mylyn.commons.identity" installMode="root"/>
+      <feature id="org.eclipse.mylyn.commons.notifications" installMode="root"/>
+      <feature id="org.eclipse.mylyn.commons.repositories" installMode="root"/>
+      <feature id="org.eclipse.mylyn.commons.repositories.http" installMode="root"/>
+      <feature id="org.eclipse.mylyn.discovery" installMode="root"/>
+      <feature id="org.eclipse.mylyn_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.gerrit.dashboard.feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.gerrit.feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.git" installMode="root"/>
+      <feature id="org.eclipse.mylyn.hudson" installMode="root"/>
+      <feature id="org.eclipse.mylyn.monitor" installMode="root"/>
+      <feature id="org.eclipse.mylyn.reviews.feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.team_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.versions" installMode="root"/>
+      <feature id="org.eclipse.mylyn.wikitext_feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.context_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.github.feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.hudson" installMode="root"/>
       <feature id="org.eclipse.mylyn.ide_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.java_feature" installMode="root"/>
-      <feature id="org.eclipse.mylyn.monitor" installMode="root"/>
       <feature id="org.eclipse.mylyn.pde_feature" installMode="root"/>
-      <feature id="org.eclipse.mylyn.reviews.feature" installMode="root"/>
       <!-- <feature id="org.eclipse.mylyn.subclipse" installMode="root"/> -->
       <feature id="org.eclipse.mylyn.tasks.ide" installMode="root"/>
-      <feature id="org.eclipse.mylyn.team_feature" installMode="root"/>
-      <feature id="org.eclipse.mylyn.wikitext_feature" installMode="root"/>
 
       <feature id="edu.umd.cs.findbugs.plugin.eclipse" installMode="root"/>
 
@@ -271,7 +323,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
       <feature id="net.sourceforge.pmd.eclipse" installMode="root"/>
 
-      <!-- <feature id="ch.acanda.eclipse.pmd.java.feature" installMode="root"/> -->
+      <feature id="ch.acanda.eclipse.pmd.java.feature" installMode="root"/>
 
       <feature id="com.mountainminds.eclemma.feature" installMode="root"/>
 
@@ -298,6 +350,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.m2e.wtp.jpa.feature" installMode="root"/>
       <feature id="org.eclipse.m2e.wtp.jsf.feature" installMode="root"/>
 
+      <!--
       <feature id="org.jboss.ide.eclipse.freemarker.feature" installMode="root"/>
       <feature id="org.jboss.tools.common.jdt.feature" installMode="root"/>
       <feature id="org.jboss.tools.jmx.feature" installMode="root"/>
@@ -320,6 +373,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.jboss.tools.wtp.runtimes.tomcat.feature" installMode="root"/>
       <feature id="org.jboss.tools.wtp.server.launchbar.feature" installMode="root"/>
       <feature id="org.jboss.tools.xulrunner.feature" installMode="root"/>
+      -->
 
       <feature id="org.springframework.ide.eclipse.ajdt.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.aop.feature" installMode="root"/>
@@ -349,7 +403,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <!-- <feature id="org.codehaus.groovy.jdt.patch" installMode="root"/> -->
       <!-- <feature id="org.codehaus.groovy.m2eclipse.feature" installMode="root"/> -->
 
-      <feature id="org.maven.ide.eclipse.ajdt.feature" installMode="root"/>
+      <!-- <feature id="org.maven.ide.eclipse.ajdt.feature" installMode="root"/> -->
 
       <feature id="org.eclipse.ajdt" installMode="root"/>
 
@@ -391,7 +445,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
       <feature id="org.apache.maven.doxia.ide.eclipse.feature" installMode="root"/>
 
-      <feature id="com.aptana.feature.studio" installMode="root"/>
+      <!-- <feature id="com.aptana.feature.studio" installMode="root"/> -->
       <!-- <feature id="com.aptana.feature" installMode="root"/> -->
       <!-- <feature id="com.aptana.ide.feature.libraries.subscription" installMode="root"/> -->
       <!-- <feature id="com.aptana.php.feature" installMode="root"/> -->
@@ -419,11 +473,11 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <!-- <feature id="org.python.pydev.feature" installMode="root"/> -->
       <!-- <feature id="org.python.pydev.mylyn.feature" installMode="root"/> -->
 
-      <feature id="pl.com.tt.feature.fontsize" installMode="root"/>
-
       <feature id="se.weightpoint.jslint.feature" installMode="root"/>
 
       <feature id="net.sourceforge.dep4e.feature" installMode="root"/>
+
+      <feature id="pl.com.tt.feature.fontsize" installMode="root"/>
 
       <feature id="com.jutils.lint4j.core" installMode="root"/>
 
@@ -431,7 +485,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
       <!-- FreeMem jar doesn't have an osgi MANIFEST.MF file -->
       <!-- <feature id="biz.junginger.FreeMemFeature" installMode="root"/> -->
-      <feature id="biz.junginger.ExploreFS_Feature" installMode="root"/>
+      <!-- <feature id="biz.junginger.ExploreFS_Feature" installMode="root"/> -->
 
       <feature id="jd.edi.eclipse.feature" installMode="root"/>
       <feature id="realignment.jd.ide.eclipse.feature" installMode="root"/>
@@ -472,7 +526,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <repository location="http://findbugs.cs.umd.edu/eclipse/" enabled="true" />
       <repository location="http://download.eclipse.org/egit/updates" enabled="true" />
       <repository location="http://download.eclipse.org/technology/subversive/4.0/update-site/" enabled="true" />
-      <repository location="http://community.polarion.com/projects/subversive/download/eclipse/6.0/mars-site/" enabled="true" />
+      <repository location="http://community.polarion.com/projects/subversive/download/eclipse/6.0/update-site/" enabled="true" />
       <repository location="http://download.aptana.com/studio3/plugin/install" enabled="true" />
       <repository location="http://gnuarmeclipse.sourceforge.net/updates/ enabled="true" />
       <repository location="http://download.eclipse.org/tools/pdt/updates/latest/" enabled="true" />
