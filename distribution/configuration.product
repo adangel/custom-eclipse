@@ -424,6 +424,8 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="realignment.jd.ide.eclipse.feature" installMode="root"/>
 
       <feature id="cucumber.eclipse.feature" installMode="root"/>
+      <feature id="com.google.eclipse.protobuf" installMode="root"/>
+
    </features>
 
    <configurations>

@@ -527,6 +527,14 @@ convert_site
 
 
 
+#
+# Protobuf-dt is a new Eclipse plug-in for editing protocol buffer descriptor files.
+# See: https://marketplace.eclipse.org/content/protobuf-dt
+# See: https://github.com/google/protobuf-dt
+# Features:
+# com.google.eclipse.protobuf
+#
+mirror_p2 "http://google.github.io/protobuf-dt/updates/latest/"
 
 
 
