@@ -6,9 +6,9 @@
   <packaging>pom</packaging>
   
   <properties>
-    <tycho-version>0.25.0</tycho-version>
-    <product-name>eclipse-neon-4.6.0-custom</product-name>
-    <splash-subtitle>4.6.0 (Neon)</splash-subtitle>
+    <tycho-version>0.26.0</tycho-version>
+    <product-name>eclipse-neon-4.6.2-custom</product-name>
+    <splash-subtitle>4.6.2 (Neon)</splash-subtitle>
   </properties>
 
   <build>
