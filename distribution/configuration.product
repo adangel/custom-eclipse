@@ -238,6 +238,19 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.mylyn_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.bugzilla_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.context_feature" installMode="root"/>
+
+      <!-- Eclipse IDE for PHP Developers
+           http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.php.product/epp.product
+      -->
+      <!-- -->
+      <feature id="org.eclipse.epp.package.php.feature" installMode="root"/>
+      <feature id="org.eclipse.php.mylyn" installMode="root"/>
+      <feature id="org.eclipse.php.importer" installMode="root"/>
+      <feature id="org.eclipse.php" installMode="root"/>
+      <feature id="org.eclipse.wst.jsdt.feature"  installMode="root"/>
+      <feature id="org.eclipse.wst.xml_ui.feature" installMode="root"/>
+      <!-- -->
+
       <feature id="org.eclipse.mylyn.gerrit.feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.git" installMode="root"/>
       <feature id="org.eclipse.mylyn.github.feature" installMode="root"/>
@@ -459,6 +472,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <repository location="http://community.polarion.com/projects/subversive/download/eclipse/6.0/mars-site/" enabled="true" />
       <repository location="http://download.aptana.com/studio3/plugin/install" enabled="true" />
       <repository location="http://gnuarmeclipse.sourceforge.net/updates/ enabled="true" />
+      <repository location="http://download.eclipse.org/tools/pdt/updates/latest/" enabled="true" />
    </repositories>
 
 </product>

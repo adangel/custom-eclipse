@@ -536,6 +536,13 @@ convert_site
 #
 mirror_p2 "http://google.github.io/protobuf-dt/updates/latest/"
 
+#
+# PDT: Eclipse PHP Development Tools
+# See: http://www.eclipse.org/pdt/
+# Features:
+# org.eclipse.php
+#
+mirror_p2 "http://download.eclipse.org/tools/pdt/updates/latest/"
 
 #
 # The GNU ARM Eclipse is an open source project that includes a family of Eclipse plug-ins and tools
