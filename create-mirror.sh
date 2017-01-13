@@ -537,6 +537,25 @@ convert_site
 mirror_p2 "http://google.github.io/protobuf-dt/updates/latest/"
 
 
+#
+# The GNU ARM Eclipse is an open source project that includes a family of Eclipse plug-ins and tools
+# for multi-platform embedded ARM development, based on GNU toolchains.
+# See: http://marketplace.eclipse.org/content/gnu-arm-eclipse
+# See: http://gnuarmeclipse.github.io/
+# Features:
+# ilg.gnuarmeclipse.codered
+# ilg.gnuarmeclipse.debug.gdbjtag.jlink
+# ilg.gnuarmeclipse.debug.gdbjtag.openocd
+# ilg.gnuarmeclipse.debug.gdbjtag.pyocd
+# ilg.gnuarmeclipse.debug.gdbjtag.qemu
+# ilg.gnuarmeclipse.doc.user
+# ilg.gnuarmeclipse.managedbuild.cross
+# ilg.gnuarmeclipse.packs
+# ilg.gnuarmeclipse.templates.ad
+# ilg.gnuarmeclipse.templates.cortexm
+# ilg.gnuarmeclipse.templates.freescale
+# ilg.gnuarmeclipse.templates.stm
+mirror_p2 "http://gnuarmeclipse.sourceforge.net/updates/"
 
 
 

@@ -426,6 +426,18 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="cucumber.eclipse.feature" installMode="root"/>
       <feature id="com.google.eclipse.protobuf" installMode="root"/>
 
+      <feature id="ilg.gnuarmeclipse.codered" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.debug.gdbjtag.jlink" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.debug.gdbjtag.openocd" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.debug.gdbjtag.pyocd" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.debug.gdbjtag.qemu" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.doc.user" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.managedbuild.cross" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.packs" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.templates.ad" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.templates.cortexm" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.templates.freescale" installMode="root"/>
+      <feature id="ilg.gnuarmeclipse.templates.stm" installMode="root"/>
    </features>
 
    <configurations>
@@ -446,6 +458,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <repository location="http://download.eclipse.org/technology/subversive/4.0/update-site/" enabled="true" />
       <repository location="http://community.polarion.com/projects/subversive/download/eclipse/6.0/mars-site/" enabled="true" />
       <repository location="http://download.aptana.com/studio3/plugin/install" enabled="true" />
+      <repository location="http://gnuarmeclipse.sourceforge.net/updates/ enabled="true" />
    </repositories>
 
 </product>

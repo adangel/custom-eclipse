@@ -56,7 +56,9 @@ Highlights are:
 *   Maven Development Tools - <https://github.com/ifedorenko/com.ifedorenko.m2e.mavendev>
 *   Optimizer for Eclipse - <http://zeroturnaround.com/free/optimizer-for-eclipse/>
 *   Aptana Studio - <http://www.aptana.com/products/studio3/download>
+*   GNU ARM Eclipse - <http://gnuarmeclipse.github.io/>
 
+Note: not all packages are enabled by default.
 
 ## References
 
@@ -72,6 +74,7 @@ Highlights are:
 * <http://wiki.eclipse.org/Simultaneous_Release>
 * <http://wiki.eclipse.org/Eclipse_Project_Update_Sites>
 * <https://wiki.eclipse.org/Eclipse/Installation>
+* Default packages: <http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages>
 
 
 
