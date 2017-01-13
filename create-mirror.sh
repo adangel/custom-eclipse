@@ -526,6 +526,14 @@ mirror_site "http://cucumber.github.com/cucumber-eclipse/update-site"
 convert_site
 
 
+#
+# YEdit is an Eclipse editor for editing YAML files.
+# See: https://marketplace.eclipse.org/content/yedit
+# See: https://github.com/oyse/yedit
+# Features:
+# org.dadacoalition.yedit.feature
+#
+mirror_p2 "http://dadacoalition.org/yedit/"
 
 #
 # Protobuf-dt is a new Eclipse plug-in for editing protocol buffer descriptor files.
