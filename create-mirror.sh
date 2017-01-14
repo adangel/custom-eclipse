@@ -368,6 +368,18 @@ mirror_p2 "http://update.zeroturnaround.com/free-tools/site/"
 mirror_p2 "http://download.eclipse.org/egit/updates"
 
 #
+# Subclipse - Subclipse is an Eclipse Team Provider plugin for Apache Subversion.
+# See: https://github.com/subclipse/subclipse
+# See: https://github.com/subclipse/subclipse/wiki
+# Features:
+# org.tigris.subversion.subclipse
+# org.tigris.subversion.clientadapter.svnkit.feature
+# org.tigris.subversion.subclipse.mylyn.feature
+# org.tigris.subversion.subclipse.graph.feature
+#
+mirror_p2 "https://dl.bintray.com/subclipse/releases/subclipse/latest/"
+
+#
 # Code Recommenders - The Intelligent Development Environment
 # See: http://www.eclipse.org/recommenders/
 # See: http://marketplace.eclipse.org/content/eclipse-code-recommenders

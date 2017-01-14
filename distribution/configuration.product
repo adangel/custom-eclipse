@@ -225,6 +225,13 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
 
 
+      <!-- Subversion Support via Subclipse -->
+      <!-- <feature id="org.tigris.subversion.subclipse" installMode="root"/> -->
+      <!-- <feature id="org.tigris.subversion.clientadapter.svnkit.feature" installMode="root"/> -->
+      <!-- <feature id="org.tigris.subversion.subclipse.mylyn.feature" installMode="root"/> -->
+      <!-- <feature id="org.tigris.subversion.subclipse.graph.feature" installMode="root"/> -->
+      <!-- <feature id="org.sonatype.m2e.subclipse.feature" installMode="root"/> -->
+      <!-- <feature id="org.eclipse.mylyn.subclipse" installMode="root"/> -->
       <!-- all the additional features -->
       <feature id="feature-plugins" version="1.0.0.qualifier"/>
 
@@ -328,7 +335,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.mylyn.ide_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.java_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.pde_feature" installMode="root"/>
-      <!-- <feature id="org.eclipse.mylyn.subclipse" installMode="root"/> -->
       <feature id="org.eclipse.mylyn.tasks.ide" installMode="root"/>
       <feature id="org.eclipse.mylyn.docs.epub" installMode="root"/>
 
@@ -387,7 +393,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.sonatype.m2e.sisu.feature" installMode="root"/>
       <feature id="org.sonatype.m2e.egit.feature" installMode="root"/>
       <feature id="org.sonatype.m2e.subversive.feature" installMode="root"/>
-      <!-- <feature id="org.sonatype.m2e.subclipse.feature" installMode="root"/> -->
 
       <feature id="org.eclipse.m2e.wtp.feature" installMode="root"/>
       <feature id="org.eclipse.m2e.wtp.jaxrs.feature" installMode="root"/>
