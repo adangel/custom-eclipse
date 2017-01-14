@@ -7,7 +7,7 @@
   
   <properties>
     <tycho-version>0.26.0</tycho-version>
-    <product-name>eclipse-neon-4.6.2-full</product-name>
+    <product-name>eclipse-neon-4.6.2-custom</product-name>
     <splash-subtitle>4.6.2 (Neon)</splash-subtitle>
   </properties>
 

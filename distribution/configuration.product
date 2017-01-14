@@ -256,6 +256,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <!-- Eclipse CPP - C/C++
            http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.cpp.product/epp.product
       -->
+      <!--
       <feature id="org.eclipse.epp.package.cpp.feature" installMode="root"/>
       <feature id="org.eclipse.cdt" installMode="root"/>
       <feature id="org.eclipse.cdt.autotools" installMode="root"/>
@@ -278,8 +279,10 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.tracecompass.lttng2.control" installMode="root"/>
       <feature id="org.eclipse.tracecompass.lttng2.kernel" installMode="root"/>
       <feature id="org.eclipse.tracecompass.lttng2.ust" installMode="root"/>
+      -->
 
       <!-- additional C/C++ features -->
+      <!--
       <feature id="org.eclipse.cdt.arduino" installMode="root"/>
       <feature id="org.eclipse.cdt.core.lrparser.feature" installMode="root"/>
       <feature id="org.eclipse.cdt.docker.launcher" installMode="root"/>
@@ -290,8 +293,10 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.linuxtools.man" installMode="root"/>
       <feature id="org.eclipse.remote.console" installMode="root"/>
       <feature id="org.eclipse.tcf.te.tcf.launch.cdt.feature" installMode="root"/>
+      -->
 
       <!-- GNU ARM Eclipse -->
+      <!--
       <feature id="ilg.gnuarmeclipse.codered" installMode="root"/>
       <feature id="ilg.gnuarmeclipse.debug.gdbjtag.jlink" installMode="root"/>
       <feature id="ilg.gnuarmeclipse.debug.gdbjtag.openocd" installMode="root"/>
@@ -304,7 +309,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="ilg.gnuarmeclipse.templates.cortexm" installMode="root"/>
       <feature id="ilg.gnuarmeclipse.templates.freescale" installMode="root"/>
       <feature id="ilg.gnuarmeclipse.templates.stm" installMode="root"/>
-
+      -->
 
 
 
@@ -336,18 +341,20 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <!-- Eclipse IDE for PHP Developers
            http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.php.product/epp.product
       -->
+      <!--
       <feature id="org.eclipse.epp.package.php.feature" installMode="root"/>
       <feature id="org.eclipse.php.mylyn" installMode="root"/>
       <feature id="org.eclipse.php.importer" installMode="root"/>
       <feature id="org.eclipse.php" installMode="root"/>
       <feature id="org.eclipse.wst.jsdt.feature"  installMode="root"/>
       <feature id="org.eclipse.wst.xml_ui.feature" installMode="root"/>
-
+      -->
 
 
       <!-- Eclipse PDE - Plugin Development
            http://www.eclipse.org/pde/
       -->
+      <!--
       <feature id="org.eclipse.pde" installMode="root"/>
       <feature id="org.eclipse.platform.source" installMode="root"/>
       <feature id="org.eclipse.rcp.source" installMode="root"/>
@@ -357,7 +364,8 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.test" installMode="root"/>
       <feature id="org.eclipse.swt.tools.feature" installMode="root"/>
       <feature id="org.eclipse.releng.tools" installMode="root"/>
-
+      <feature id="org.eclipse.mylyn.pde_feature" installMode="root"/>
+      -->
 
       <!-- Mylyn -->
       <feature id="org.eclipse.mylyn.bugzilla_feature" installMode="root"/>
@@ -381,7 +389,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.mylyn.hudson" installMode="root"/>
       <feature id="org.eclipse.mylyn.ide_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.java_feature" installMode="root"/>
-      <feature id="org.eclipse.mylyn.pde_feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.tasks.ide" installMode="root"/>
       <feature id="org.eclipse.mylyn.docs.epub" installMode="root"/>
 
@@ -394,12 +401,14 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
 
       <!-- JavaFX, Swing -->
+      <!--
       <feature id="org.eclipse.fx.ide.feature" installMode="root"/>
       <feature id="org.eclipse.wb.core.feature" installMode="root"/>
       <feature id="org.eclipse.wb.core.ui.feature" installMode="root"/>
       <feature id="org.eclipse.wb.swing.feature" installMode="root"/>
       <feature id="org.eclipse.wb.layout.group.feature" installMode="root"/>
       <feature id="org.eclipse.wb.core.java.feature" installMode="root"/>
+      -->
 
       <!-- Big Launch Bar -->
       <feature id="org.eclipse.launchbar" installMode="root"/>
@@ -423,9 +432,11 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <!-- <feature id="ch.acanda.eclipse.pmd.java.feature" installMode="root"/> -->
 
       <!-- Lint4J, JDepend4Eclipse -->
+      <!--
       <feature id="net.sourceforge.dep4e.feature" installMode="root"/>
       <feature id="com.jutils.lint4j.core" installMode="root"/>
       <feature id="JDepend4Eclipse" installMode="root"/>
+      -->
 
 
       <!-- Code Coverage -->
@@ -555,6 +566,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <!-- <feature id="biz.junginger.FreeMemFeature" installMode="root"/> -->
       <!-- <feature id="biz.junginger.ExploreFS_Feature" installMode="root"/> -->
 
+      <!-- Java Decompiler -->
       <feature id="jd.edi.eclipse.feature" installMode="root"/>
       <feature id="realignment.jd.ide.eclipse.feature" installMode="root"/>
 
