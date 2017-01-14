@@ -221,7 +221,7 @@ mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.6/"
 # org.codehaus.groovy.jdt.patch
 # org.codehaus.groovy.m2eclipse.feature
 #
-mirror_p2 "http://dist.springsource.org/snapshot/GRECLIPSE/e4.5"
+mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.5/"
 
 #
 # Maven project configuration for Eclipse AJDT
@@ -488,6 +488,13 @@ convert_site
 # See: http://andrei.gmxhome.de/jdepend4eclipse/index.html
 # Features:
 # JDepend4Eclipse
+# FileSync
+# AnyEditTools
+# org.eclipselabs.plugindependencies
+# EclipseSkins
+# DataHierarchy
+# de.loskutov.BytecodeOutline.feature
+# zipeditor
 #
 mirror_site "http://andrei.gmxhome.de/eclipse/"
 convert_site
@@ -511,6 +518,7 @@ convert_site
 # Features:
 # jd.edi.eclipse.feature
 # realignment.jd.ide.eclipse.feature
+# codetrails.feature
 #
 mirror_site "http://mchr3k-eclipse.appspot.com/"
 convert_site
@@ -525,7 +533,6 @@ convert_site
 # note: the p2 repo doesn't have the latest version 
 mirror_site "http://cucumber.github.com/cucumber-eclipse/update-site"
 convert_site
-
 
 #
 # YEdit is an Eclipse editor for editing YAML files.
