@@ -2,6 +2,19 @@
 # Functions
 ###########################
 
+# trap ctrl-c and call ctrl_c()
+# see https://rimuhosting.com/knowledgebase/linux/misc/trapping-ctrl-c-in-bash
+trap ctrl_c INT
+
+#
+# Make sure to abort execution completely
+#
+function ctrl_c() {
+        echo "Aborted..."
+        exit 1
+}
+
+
 #
 # Mirrors an old-style update site (not a p2 repository)
 # Can mirror multiple sites into one mirror. The sites are merged.
