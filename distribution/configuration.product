@@ -243,6 +243,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.linuxtools.cdt.libhover.feature" installMode="root"/>
       <feature id="org.eclipse.linuxtools.cdt.libhover.devhelp.feature" installMode="root"/>
       <feature id="org.eclipse.linuxtools.changelog.c" installMode="root"/>
+      <feature id="org.eclipse.linuxtools.changelog" installMode="root"/>
       <feature id="org.eclipse.linuxtools.gcov" installMode="root"/>
       <feature id="org.eclipse.linuxtools.gprof.feature" installMode="root"/>
       <feature id="org.eclipse.linuxtools.rpm" installMode="root"/>
@@ -252,6 +253,19 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.tracecompass.lttng2.control" installMode="root"/>
       <feature id="org.eclipse.tracecompass.lttng2.kernel" installMode="root"/>
       <feature id="org.eclipse.tracecompass.lttng2.ust" installMode="root"/>
+
+      <!-- additional C/C++ features -->
+      <feature id="org.eclipse.cdt.arduino" installMode="root"/>
+      <feature id="org.eclipse.cdt.core.lrparser.feature" installMode="root"/>
+      <feature id="org.eclipse.cdt.docker.launcher" installMode="root"/>
+      <feature id="org.eclipse.cdt.debug.gdbjtag" installMode="root"/>
+      <feature id="org.eclipse.cdt.managedbuilder.llvm" installMode="root"/>
+      <feature id="org.eclipse.cdt.gnu.multicorevisualizer" installMode="root"/>
+      <feature id="org.eclipse.cdt.testsrunner.feature" installMode="root"/>
+      <feature id="org.eclipse.linuxtools.man" installMode="root"/>
+      <feature id="org.eclipse.remote.console" installMode="root"/>
+      <feature id="org.eclipse.tcf.te.tcf.launch.cdt.feature" installMode="root"/>
+
 
       <!-- Eclipse JavaScript
            http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages/org.eclipse.epp.package.javascript.product/epp.product
@@ -316,6 +330,34 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.mylyn.pde_feature" installMode="root"/>
       <!-- <feature id="org.eclipse.mylyn.subclipse" installMode="root"/> -->
       <feature id="org.eclipse.mylyn.tasks.ide" installMode="root"/>
+      <feature id="org.eclipse.mylyn.docs.epub" installMode="root"/>
+
+
+      <feature id="org.eclipse.linuxtools.docker.feature" installMode="root"/>
+      <feature id="org.eclipse.linuxtools.vagrant.feature" installMode="root"/>
+
+      <feature id="org.eclipse.fx.ide.feature" installMode="root"/>
+      <feature id="org.eclipse.wb.core.feature" installMode="root"/>
+      <feature id="org.eclipse.wb.core.ui.feature" installMode="root"/>
+      <feature id="org.eclipse.wb.swing.feature" installMode="root"/>
+      <feature id="org.eclipse.wb.layout.group.feature" installMode="root"/>
+      <feature id="org.eclipse.wb.core.java.feature" installMode="root"/>
+
+      <feature id="org.eclipse.launchbar" installMode="root"/>
+
+      <feature id="org.eclipse.mat.feature" installMode="root"/>
+      <feature id="org.eclipse.mat.chart.feature" installMode="root"/>
+
+      <feature id="org.eclipse.tracecompass.tmf.pcap" installMode="root"/>
+
+      <feature id="org.eclipse.papyrus.sdk.feature" installMode="root"/>
+
+      <feature id="org.eclipse.pde.source" installMode="root"/>
+      <feature id="org.eclipse.test" installMode="root"/>
+      <feature id="org.eclipse.swt.tools.feature" installMode="root"/>
+      <feature id="org.eclipse.releng.tools" installMode="root"/>
+
+
 
       <feature id="edu.umd.cs.findbugs.plugin.eclipse" installMode="root"/>
 
@@ -350,7 +392,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.m2e.wtp.jpa.feature" installMode="root"/>
       <feature id="org.eclipse.m2e.wtp.jsf.feature" installMode="root"/>
 
-      <!--
+      <!-- -->
       <feature id="org.jboss.ide.eclipse.freemarker.feature" installMode="root"/>
       <feature id="org.jboss.tools.common.jdt.feature" installMode="root"/>
       <feature id="org.jboss.tools.jmx.feature" installMode="root"/>
@@ -373,20 +415,21 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.jboss.tools.wtp.runtimes.tomcat.feature" installMode="root"/>
       <feature id="org.jboss.tools.wtp.server.launchbar.feature" installMode="root"/>
       <feature id="org.jboss.tools.xulrunner.feature" installMode="root"/>
-      -->
+      <!-- -->
 
       <feature id="org.springframework.ide.eclipse.ajdt.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.aop.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.autowire.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.batch.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.boot.dash.feature" installMode="root"/>
+      <feature id="org.springframework.ide.eclipse.cft.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.data.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.integration.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.maven.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.mylyn.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.osgi.feature" installMode="root"/>
-      <feature id="org.springframework.ide.eclipse.roo.feature" installMode="root"/>
+      <!--<feature id="org.springframework.ide.eclipse.roo.feature" installMode="root"/>-->
       <feature id="org.springframework.ide.eclipse.security.feature" installMode="root"/>
       <feature id="org.springframework.ide.eclipse.webflow.feature" installMode="root"/>
       <feature id="org.springsource.ide.eclipse.commons.quicksearch.feature" installMode="root"/>
@@ -462,13 +505,10 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
       <feature id="org.polarion.eclipse.team.svn.connector" installMode="root"/>
       <feature id="org.polarion.eclipse.team.svn.connector.svnkit18" installMode="root"/>
-      <!-- <feature id="org.polarion.eclipse.team.svn.connector.svnkit17" installMode="root"/> -->
       <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl18" installMode="root"/> -->
       <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl18.win32" installMode="root"/> -->
       <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl18.win64" installMode="root"/> -->
-      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl17" installMode="root"/> -->
-      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl17.win32" installMode="root"/> -->
-      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl17.win64" installMode="root"/> -->
+      <!-- <feature id="org.polarion.eclipse.team.svn.connector.javahl19.win32" installMode="root"/> -->
 
       <!-- <feature id="org.python.pydev.feature" installMode="root"/> -->
       <!-- <feature id="org.python.pydev.mylyn.feature" installMode="root"/> -->
