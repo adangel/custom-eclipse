@@ -518,6 +518,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
    <repositories>
       <repository location="http://download.eclipse.org/releases/neon/" enabled="true" />
+      <repository location="http://download.eclipse.org/eclipse/updates/4.6" enabled="true" />
       <repository location="http://download.eclipse.org/mylyn/releases/latest" enabled="true" />
       <repository location="http://dist.springsource.com/release/TOOLS/update/e4.6/" enabled="true" />
       <repository location="http://eclipse-cs.sourceforge.net/update" enabled="true" />
@@ -528,7 +529,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <repository location="http://download.eclipse.org/technology/subversive/4.0/update-site/" enabled="true" />
       <repository location="http://community.polarion.com/projects/subversive/download/eclipse/6.0/update-site/" enabled="true" />
       <repository location="http://download.aptana.com/studio3/plugin/install" enabled="true" />
-      <repository location="http://gnuarmeclipse.sourceforge.net/updates/ enabled="true" />
+      <repository location="http://gnuarmeclipse.sourceforge.net/updates/" enabled="true" />
       <repository location="http://download.eclipse.org/tools/pdt/updates/latest/" enabled="true" />
    </repositories>
 

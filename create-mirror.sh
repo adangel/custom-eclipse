@@ -9,13 +9,18 @@
 # Downloads/Mirrors
 #####################################
 
-
 #
 # Basic repository for the Eclipse release.
 # See: http://wiki.eclipse.org/Simultaneous_Release
 # Features see http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/tree/packages
 #
 mirror_p2 "http://download.eclipse.org/releases/neon/"
+
+#
+# Updates for the Eclipse release
+#
+mirror_p2 "http://download.eclipse.org/eclipse/updates/4.6"
+
 
 #
 # Mylyn is the task and application lifecycle management (ALM) framework for Eclipse.
@@ -37,6 +42,7 @@ mirror_p2 "http://download.eclipse.org/releases/neon/"
 # org.eclipse.mylyn.tasks.ide
 # org.eclipse.mylyn.team_feature
 # org.eclipse.mylyn.wikitext_feature
+# org.eclipse.mylyn.docs.epub
 #
 mirror_p2 "http://download.eclipse.org/mylyn/releases/latest"
 
@@ -348,7 +354,9 @@ mirror_p2 "http://update.zeroturnaround.com/free-tools/site/"
 # Features:
 # org.eclipse.egit
 # org.eclipse.egit.mylyn
+# org.eclipse.egit.gitflow.feature
 # org.eclipse.jgit
+# org.eclipse.jgit.pgm
 #
 mirror_p2 "http://download.eclipse.org/egit/updates"
 
@@ -557,6 +565,9 @@ mirror_p2 "http://google.github.io/protobuf-dt/updates/latest/"
 # See: http://www.eclipse.org/pdt/
 # Features:
 # org.eclipse.php
+# org.eclipse.php.composer
+# org.eclipse.php.mylyn
+# org.eclipse.php.importer
 #
 mirror_p2 "http://download.eclipse.org/tools/pdt/updates/latest/"
 
@@ -579,8 +590,6 @@ mirror_p2 "http://download.eclipse.org/tools/pdt/updates/latest/"
 # ilg.gnuarmeclipse.templates.freescale
 # ilg.gnuarmeclipse.templates.stm
 mirror_p2 "http://gnuarmeclipse.sourceforge.net/updates/"
-
-
 
 
 
