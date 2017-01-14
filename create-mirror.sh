@@ -475,14 +475,6 @@ mirror_p2 "http://weightpoint.github.io/jslint-eclipse/updates/"
 mirror_p2 "https://sourceforge.net/projects/dep4e/files/repository/"
 
 
-#
-# Fontsize
-# See: https://marketplace.eclipse.org/content/fontsize
-# Features:
-# pl.com.tt.feature.fontsize
-#
-mirror_p2 "http://plm.tt.com.pl/eclipse-plugins/updateSite/"
-
 
 
 
