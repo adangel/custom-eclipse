@@ -333,7 +333,7 @@ mirror_p2 "http://bitstrings.github.io/m2e-connectors-p2/releases/"
 # nl.mwensveen.m2e.extras.java.formatter.feature
 # nl.mwensveen.m2e.extras.xml.transform.feature
 #
-mirror_p2 "http://mwensveen-nl.github.io/nl-mwensveen-m2e-extras/"
+mirror_p2 "http://mwensveen-nl.github.io/nl-mwensveen-m2e-extras/p2/release/"
 
 #
 # JAutodoc - Eclipse Plugin
