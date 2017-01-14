@@ -226,6 +226,7 @@ mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.6/"
 # Groovy/Grails Tool Suite (GGTS) for Eclipse
 # See: https://spring.io/tools/ggts/
 # See: https://marketplace.eclipse.org/content/groovygrails-tool-suite-ggts-eclipse
+# See: https://github.com/groovy/groovy-eclipse/wiki
 # Features:
 # org.codehaus.groovy24.feature
 # org.codehaus.groovy.compilerless.feature
@@ -233,7 +234,7 @@ mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.6/"
 # org.codehaus.groovy.jdt.patch
 # org.codehaus.groovy.m2eclipse.feature
 #
-mirror_p2 "http://dist.springsource.com/release/TOOLS/update/e4.5/"
+mirror_p2 "http://dist.springsource.org/snapshot/GRECLIPSE/e4.6/"
 
 #
 # Maven project configuration for Eclipse AJDT

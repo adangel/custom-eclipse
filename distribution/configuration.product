@@ -441,7 +441,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.springsource.sts.package" installMode="root"/>
       <feature id="org.springsource.sts" installMode="root"/>
 
-
+      <!-- Groovy Support -->
       <!-- <feature id="org.codehaus.groovy24.feature" installMode="root"/> -->
       <!-- <feature id="org.codehaus.groovy.compilerless.feature" installMode="root"/> -->
       <!-- <feature id="org.codehaus.groovy.eclipse.feature" installMode="root"/> -->
