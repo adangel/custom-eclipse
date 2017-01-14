@@ -21,6 +21,12 @@ mirror_p2 "http://download.eclipse.org/releases/neon/"
 #
 mirror_p2 "http://download.eclipse.org/eclipse/updates/4.6"
 
+#
+# Papyrus Software Designer
+# See: http://wiki.eclipse.org/Papyrus_Software_Designer
+# See: http://wiki.eclipse.org/Java_reverse_engineering
+#
+mirror_p2 "http://download.eclipse.org/modeling/mdt/papyrus/components/designer/"
 
 #
 # Mylyn is the task and application lifecycle management (ALM) framework for Eclipse.
