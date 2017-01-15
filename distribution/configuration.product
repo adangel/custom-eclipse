@@ -421,8 +421,10 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.tracecompass.tmf.pcap" installMode="root"/>
 
       <!-- Papyrus UML -->
+      <!--
       <feature id="org.eclipse.papyrus.sdk.feature" installMode="root"/>
       <feature id="org.eclipse.papyrus.designer.languages.java.feature" installMode="root"/>
+      -->
 
       <!-- Findbugs, Checkstyle, PMD -->
       <feature id="edu.umd.cs.findbugs.plugin.eclipse" installMode="root"/>
